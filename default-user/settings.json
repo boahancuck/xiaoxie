@@ -17,7 +17,7 @@
         "__migrated": "1"
     },
     "currentVersion": "1.12.12",
-    "username": "西蒙",
+    "username": "谢三",
     "active_character": "霜影剑歌行.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -335,7 +335,7 @@
             "max_additions": 1
         },
         "personas": {
-            "user-default.png": "西蒙"
+            "user-default.png": "谢三"
         },
         "default_persona": null,
         "persona_descriptions": {
