@@ -872,13 +872,73 @@
             "id": "1345561466591",
             "name": "ST Default",
             "color": "rgba(108, 32, 32, 1)"
+        },
+        {
+            "id": "1353feca-ce15-41a1-8e51-9d2ee44346bd",
+            "name": "后宫",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "color": "",
+            "color2": "",
+            "create_date": 1741505251092
+        },
+        {
+            "id": "780e7310-a8f9-49ce-9676-dc4117160963",
+            "name": "异世界",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "color": "",
+            "color2": "",
+            "create_date": 1741505251092
+        },
+        {
+            "id": "c5b64c00-67be-4163-9954-3b12ee78d09d",
+            "name": "恶堕",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "color": "",
+            "color2": "",
+            "create_date": 1741505251092
+        },
+        {
+            "id": "e723d2de-2e8e-46eb-a47c-da2d8ee4dc7b",
+            "name": "调教",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "color": "",
+            "color2": "",
+            "create_date": 1741505251092
+        },
+        {
+            "id": "3c9fc9b8-9dad-452d-827d-bcc2b4780396",
+            "name": "催眠",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "color": "",
+            "color2": "",
+            "create_date": 1741505251092
         }
     ],
     "tag_map": {
         "default_Seraphina.png": [
             "1345561466591"
         ],
-        "undefined": []
+        "undefined": [],
+        "高贵典雅的妈妈姐姐们的淫乱堕落记录.png": [
+            "1353feca-ce15-41a1-8e51-9d2ee44346bd",
+            "780e7310-a8f9-49ce-9676-dc4117160963",
+            "c5b64c00-67be-4163-9954-3b12ee78d09d",
+            "e723d2de-2e8e-46eb-a47c-da2d8ee4dc7b",
+            "3c9fc9b8-9dad-452d-827d-bcc2b4780396"
+        ],
+        "可点击的选择框.png": [],
+        "空银子.png": [],
+        "霜影剑歌行.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
