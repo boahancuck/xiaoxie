@@ -2,7 +2,7 @@
     "firstRun": false,
     "currentVersion": "1.12.11",
     "username": "西蒙",
-    "active_character": "可点击的选择框.png",
+    "active_character": "高贵典雅的妈妈姐姐们的淫乱堕落记录.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -11,7 +11,9 @@
     "main_api": "openai",
     "world_info_settings": {
         "world_info": {
-            "globalSelect": []
+            "globalSelect": [
+                "【选择框】"
+            ]
         },
         "world_info_depth": 2,
         "world_info_min_activations": 0,
