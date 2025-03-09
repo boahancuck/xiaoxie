@@ -340,11 +340,11 @@
         "default_persona": null,
         "persona_descriptions": {
             "user-default.png": {
-                "description": "身长八尺，容貌shenwei",
+                "description": "身长八尺，容貌甚伟。",
                 "position": 0
             }
         },
-        "persona_description": "身长八尺，容貌shenwei",
+        "persona_description": "身长八尺，容貌甚伟。",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
