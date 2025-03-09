@@ -902,7 +902,7 @@
         },
         "IMPORTANT_USER_PRIVACY_DATA": {},
         "JS-Slash-Runner": {
-            "activate_setting": false,
+            "activate_setting": true,
             "render": {
                 "auto_enable_character_regex": true,
                 "auto_disable_incompatible_options": true,
