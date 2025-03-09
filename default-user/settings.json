@@ -2,6 +2,7 @@
     "firstRun": false,
     "currentVersion": "1.12.11",
     "username": "西蒙",
+    "active_character": "可点击的选择框.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -426,7 +427,11 @@
         "note": {
             "default": "",
             "chara": [],
-            "wiAddition": []
+            "wiAddition": [],
+            "defaultPosition": 1,
+            "defaultDepth": 4,
+            "defaultInterval": 1,
+            "defaultRole": 0
         },
         "caption": {
             "refine_mode": false,
@@ -448,7 +453,9 @@
         },
         "dice": {},
         "regex": [],
-        "character_allowed_regex": [],
+        "character_allowed_regex": [
+            "可点击的选择框.png"
+        ],
         "tts": {
             "voiceMap": "",
             "ttsEnabled": false,
