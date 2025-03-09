@@ -468,6 +468,40 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
+            },
+            {
+                "id": "037aa385-d349-4b07-b5d3-e92f3d725d89",
+                "scriptName": "【选择框】[不发送]邪恶指引",
+                "findRegex": "/<EvilGuidance>.*?<\\/EvilGuidance>/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": false,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "275adf2f-18c4-4dea-8888-47fef82e9501",
+                "scriptName": "【选择框】[不发送]选择框",
+                "disabled": false,
+                "runOnEdit": false,
+                "findRegex": "/(?:```\\s*<Checkbox>|Checkbox_start).*(?:<\\/Checkbox>\\s*```|Checkbox_end)/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null,
+                "markdownOnly": false,
+                "promptOnly": true
             }
         ],
         "character_allowed_regex": [
