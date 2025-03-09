@@ -194,3 +194,5 @@ presets/instruct/Mistral V3-Tekken.json
 presets/context/Mistral V3-Tekken.json
 presets/instruct/Mistral V7.json
 presets/context/Mistral V7.json
+presets/instruct/DeepSeek-V2.5.json
+presets/context/DeepSeek-V2.5.json
