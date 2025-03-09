@@ -2111,7 +2111,7 @@
         "personality_format": "[{{char}}'s personality: {{personality}}]",
         "openai_model": "claude-3-7-sonnet-20250219",
         "claude_model": "claude-3-5-sonnet-20240620",
-        "google_model": "gemini-2.0-flash-thinking-exp-1219",
+        "google_model": "gemini-exp-1114",
         "ai21_model": "jamba-1.5-large",
         "mistralai_model": "mistral-medium",
         "cohere_model": "command-r",
