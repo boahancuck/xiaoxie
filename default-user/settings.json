@@ -548,6 +548,23 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": 1
+            },
+            {
+                "id": "e1b9ab8a-292f-40c2-ab12-faa04068c7a9",
+                "scriptName": "【Lyean】[隐藏][不发送]思维链和免责声明",
+                "findRegex": "/(<disclaimer>.*?</disclaimer>)|(<think>.*?</think>)|(<!-- Statements Refused -->\\n)/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
