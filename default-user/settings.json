@@ -531,6 +531,23 @@
                 "maxDepth": null,
                 "markdownOnly": false,
                 "promptOnly": true
+            },
+            {
+                "id": "0e859ccf-a4bb-490c-ae3d-4f9a28b48a0c",
+                "scriptName": "【Lyean】用户输入添加tag",
+                "findRegex": "^([\\s\\S]*)$",
+                "replaceString": "<inputs>\n$1\n</inputs>",
+                "trimStrings": [],
+                "placement": [
+                    1
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": 1
             }
         ],
         "character_allowed_regex": [
