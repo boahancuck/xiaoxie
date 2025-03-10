@@ -518,7 +518,7 @@
             {
                 "id": "275adf2f-18c4-4dea-8888-47fef82e9501",
                 "scriptName": "【选择框】[不发送]选择框",
-                "disabled": false,
+                "disabled": true,
                 "runOnEdit": false,
                 "findRegex": "/(?:```\\s*<Checkbox>|Checkbox_start).*(?:<\\/Checkbox>\\s*```|Checkbox_end)/gs",
                 "replaceString": "",
