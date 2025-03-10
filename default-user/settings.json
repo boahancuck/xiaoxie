@@ -21,11 +21,13 @@
         "AlertWI_樱.png": "true",
         "AlertWI_络络.png": "true",
         "AlertRegex_络络.png": "true",
-        "AlertWI_白姝颜.png": "true"
+        "AlertWI_白姝颜.png": "true",
+        "AlertWI_另一个世界.png": "true",
+        "AlertRegex_另一个世界.png": "true"
     },
     "currentVersion": "1.12.12",
     "username": "谢三",
-    "active_character": "络络.png",
+    "active_character": "另一个世界.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -578,7 +580,8 @@
             "可点击的选择框.png",
             "高贵典雅的妈妈姐姐们的淫乱堕落记录.png",
             "林雅.png",
-            "络络.png"
+            "络络.png",
+            "另一个世界.png"
         ],
         "tts": {
             "voiceMap": "",
