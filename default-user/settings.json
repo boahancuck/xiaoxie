@@ -20,7 +20,8 @@
         "AlertRegex_林雅.png": "true",
         "AlertWI_樱.png": "true",
         "AlertWI_络络.png": "true",
-        "AlertRegex_络络.png": "true"
+        "AlertRegex_络络.png": "true",
+        "AlertWI_白姝颜.png": "true"
     },
     "currentVersion": "1.12.12",
     "username": "谢三",
@@ -1137,7 +1138,8 @@
         "永夜的公主.png": [],
         "络络.png": [],
         "樱.png": [],
-        "白姝颜.png": []
+        "白姝颜.png": [],
+        "另一个世界.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
