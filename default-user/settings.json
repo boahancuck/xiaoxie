@@ -18,6 +18,7 @@
     },
     "currentVersion": "1.12.12",
     "username": "谢三",
+    "active_character": "姐姐.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -1121,7 +1122,8 @@
             "cbb8d01e-048f-4fb9-a157-f0e18f2774fb",
             "4cd45506-4741-430c-8e23-c86509852cc3"
         ],
-        "姐姐1.png": []
+        "姐姐1.png": [],
+        "林暮雪.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
