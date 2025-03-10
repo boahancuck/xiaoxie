@@ -2,7 +2,7 @@
     "version": 2,
     "name": "角色扮演輔助一般版(1.2.1)",
     "disableSend": false,
-    "placeBeforeInput": false,
+    "placeBeforeInput": true,
     "injectInput": true,
     "color": "rgba(0, 0, 0, 0)",
     "onlyBorderColor": false,
