@@ -3,7 +3,7 @@
     "accountStorage": {
         "SelectedNavTab": "rm_button_characters",
         "AlertWI_姐姐.png": "true",
-        "NavOpened": "true",
+        "NavOpened": "false",
         "AlertWI_可点击的选择框.png": "true",
         "AlertWI_World Builder.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
