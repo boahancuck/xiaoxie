@@ -36,7 +36,9 @@
     "main_api": "openai",
     "world_info_settings": {
         "world_info": {
-            "globalSelect": []
+            "globalSelect": [
+                "_状态栏"
+            ]
         },
         "world_info_depth": 2,
         "world_info_min_activations": 0,
