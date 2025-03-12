@@ -3,7 +3,7 @@
     "accountStorage": {
         "SelectedNavTab": "rm_button_characters",
         "AlertWI_姐姐.png": "true",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "AlertWI_可点击的选择框.png": "true",
         "AlertWI_World Builder.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
@@ -1736,7 +1736,7 @@
         "zerooneai_model": "yi-large",
         "blockentropy_model": "be-70b-base-llama3.1",
         "deepseek_model": "deepseek-chat",
-        "custom_model": "claude-3-5-sonnet-20240620",
+        "custom_model": "DeepSeek-R1",
         "custom_url": "https://chatapi.akash.network/api/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
