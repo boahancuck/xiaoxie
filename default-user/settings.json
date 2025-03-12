@@ -1215,7 +1215,7 @@
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
         "stream_openai": false,
-        "openai_max_context": 65535,
+        "openai_max_context": 32767,
         "openai_max_tokens": 3000,
         "wrap_in_quotes": false,
         "prompts": [
@@ -1877,7 +1877,7 @@
         "openrouter_middleout": "on",
         "jailbreak_system": false,
         "reverse_proxy": "",
-        "chat_completion_source": "custom",
+        "chat_completion_source": "makersuite",
         "max_context_unlocked": false,
         "api_url_scale": "",
         "show_external_models": false,
