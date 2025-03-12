@@ -1769,7 +1769,7 @@
         "function_calling": false,
         "names_behavior": -1,
         "continue_postfix": " ",
-        "custom_prompt_post_processing": "",
+        "custom_prompt_post_processing": "strict",
         "show_thoughts": true,
         "reasoning_effort": "medium",
         "seed": -1,
