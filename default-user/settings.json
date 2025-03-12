@@ -576,6 +576,23 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
+            },
+            {
+                "id": "1fc0460f-6074-4c6a-9107-4f8ddfd03215",
+                "scriptName": "隐藏思考",
+                "findRegex": "([\\s\\S]*?)<Hagemi>([\\s\\S]*?)</Hagemi>",
+                "replaceString": "<details><summary>思考</summary>\n<========================>\n$2\n<========================>\n</details>\n",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
