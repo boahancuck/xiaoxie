@@ -1225,7 +1225,7 @@
     },
     "oai_settings": {
         "preset_settings_openai": "Lyean3.17.1",
-        "temp_openai": 1,
+        "temp_openai": 1.2,
         "freq_pen_openai": 0,
         "pres_pen_openai": 0,
         "top_p_openai": 0.95,
