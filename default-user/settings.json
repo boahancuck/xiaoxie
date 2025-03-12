@@ -1737,7 +1737,7 @@
         "blockentropy_model": "be-70b-base-llama3.1",
         "deepseek_model": "deepseek-chat",
         "custom_model": "claude-3-5-sonnet-20240620",
-        "custom_url": "",
+        "custom_url": "https://chatapi.akash.network/api/v1 密钥：API Key 酒馆使用参考：https://discord.com/channels/1134557553011998840/1337479598656585748",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
