@@ -1206,7 +1206,7 @@
     },
     "oai_settings": {
         "preset_settings_openai": "贝露的破甲 (4.2只因你太美正式版)",
-        "temp_openai": 0.85,
+        "temp_openai": 1.1,
         "freq_pen_openai": 0.5,
         "pres_pen_openai": 0.65,
         "top_p_openai": 0.9,
