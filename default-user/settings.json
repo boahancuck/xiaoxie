@@ -1739,7 +1739,7 @@
         "zerooneai_model": "yi-large",
         "blockentropy_model": "be-70b-base-llama3.1",
         "deepseek_model": "deepseek-chat",
-        "custom_model": "deepseek/deepseek-r1-distill-llama-70b",
+        "custom_model": "deepseek/deepseek-r1/community",
         "custom_url": "https://api.ppinfra.com/v3/openai",
         "custom_include_body": "",
         "custom_exclude_body": "",
