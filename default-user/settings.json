@@ -1226,7 +1226,7 @@
     },
     "oai_settings": {
         "preset_settings_openai": "Muses 0.4",
-        "temp_openai": 0.95,
+        "temp_openai": 1.2,
         "freq_pen_openai": 0.67,
         "pres_pen_openai": 0.5,
         "top_p_openai": 0.7,
@@ -1755,7 +1755,7 @@
         "openrouter_middleout": "on",
         "jailbreak_system": false,
         "reverse_proxy": "",
-        "chat_completion_source": "custom",
+        "chat_completion_source": "makersuite",
         "max_context_unlocked": true,
         "api_url_scale": "",
         "show_external_models": false,
