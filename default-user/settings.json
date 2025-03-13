@@ -1022,6 +1022,21 @@
                 "audio_cooldown": 0,
                 "enabled": true
             }
+        },
+        "extension-zerxz-lib": {
+            "HtmlInjector": {
+                "lastMesTextContent": "",
+                "isInjectionEnabled": true,
+                "displayMode": 1,
+                "activationMode": "all",
+                "customStartFloor": 1,
+                "customEndFloor": -1,
+                "savedPosition": "top-right",
+                "isEdgeControlsCollapsed": true,
+                "isVisibleSettingsPanel": true,
+                "saveTopPosition": "",
+                "hiddenEdgeControls": false
+            }
         }
     },
     "tags": [
