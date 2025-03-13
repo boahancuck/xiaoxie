@@ -1235,7 +1235,7 @@
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
         "stream_openai": false,
-        "openai_max_context": 2000000,
+        "openai_max_context": 200000,
         "openai_max_tokens": 15000,
         "wrap_in_quotes": false,
         "prompts": [
@@ -1755,7 +1755,7 @@
         "openrouter_middleout": "on",
         "jailbreak_system": false,
         "reverse_proxy": "https://xiaoxie10162-clewd.hf.space/v1",
-        "chat_completion_source": "openai",
+        "chat_completion_source": "custom",
         "max_context_unlocked": true,
         "api_url_scale": "",
         "show_external_models": false,
