@@ -1754,7 +1754,7 @@
         "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "on",
         "jailbreak_system": false,
-        "reverse_proxy": "",
+        "reverse_proxy": "https://xiaoxie10162-clewd.hf.space/v1",
         "chat_completion_source": "openai",
         "max_context_unlocked": true,
         "api_url_scale": "",
