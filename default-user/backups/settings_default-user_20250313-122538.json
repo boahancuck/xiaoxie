@@ -1,14 +1,14 @@
 {
     "firstRun": false,
     "accountStorage": {
-        "SelectedNavTab": "rm_button_selected_ch",
+        "SelectedNavTab": "rm_button_characters",
         "AlertWI_姐姐.png": "true",
         "NavOpened": "true",
         "AlertWI_可点击的选择框.png": "true",
         "AlertWI_World Builder.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
         "AlertRegex_高贵典雅的妈妈姐姐们的淫乱堕落记录.png": "true",
-        "LNavOpened": "false",
+        "LNavOpened": "true",
         "AlertRegex_可点击的选择框.png": "true",
         "AlertWI_霜影剑歌行.png": "true",
         "AlertWI_高贵典雅的妈妈姐姐们的淫乱堕落记录.png": "true",
@@ -17,7 +17,14 @@
         "__migrated": "1",
         "AlertWI_林暮雪.png": "true",
         "AlertWI_林雅.png": "true",
-        "AlertRegex_林雅.png": "true"
+        "AlertRegex_林雅.png": "true",
+        "AlertWI_樱.png": "true",
+        "AlertWI_络络.png": "true",
+        "AlertRegex_络络.png": "true",
+        "AlertWI_白姝颜.png": "true",
+        "AlertWI_另一个世界.png": "true",
+        "AlertRegex_另一个世界.png": "true",
+        "AlertWI_永夜的公主.png": "true"
     },
     "currentVersion": "1.12.12",
     "username": "谢三",
@@ -30,7 +37,9 @@
     "main_api": "openai",
     "world_info_settings": {
         "world_info": {
-            "globalSelect": []
+            "globalSelect": [
+                "_状态栏"
+            ]
         },
         "world_info_depth": 2,
         "world_info_min_activations": 0,
@@ -510,7 +519,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": false,
                 "promptOnly": true,
                 "runOnEdit": false,
@@ -544,7 +553,7 @@
                 "placement": [
                     1
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -561,9 +570,26 @@
                 "placement": [
                     2
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "1fc0460f-6074-4c6a-9107-4f8ddfd03215",
+                "scriptName": "隐藏思考",
+                "findRegex": "([\\s\\S]*?)<Hagemi>([\\s\\S]*?)</Hagemi>",
+                "replaceString": "<details><summary>思考</summary>\n<========================>\n$2\n<========================>\n</details>\n",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
                 "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
@@ -573,7 +599,9 @@
         "character_allowed_regex": [
             "可点击的选择框.png",
             "高贵典雅的妈妈姐姐们的淫乱堕落记录.png",
-            "林雅.png"
+            "林雅.png",
+            "络络.png",
+            "另一个世界.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1129,7 +1157,12 @@
         ],
         "姐姐1.png": [],
         "林暮雪.png": [],
-        "林小雨.png": []
+        "林小雨.png": [],
+        "永夜的公主.png": [],
+        "络络.png": [],
+        "樱.png": [],
+        "白姝颜.png": [],
+        "另一个世界.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -2182,7 +2215,7 @@
                     },
                     {
                         "identifier": "90c4768d-3fb4-47dc-9140-40e6a400b43c",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "jailbreak",
@@ -2235,9 +2268,9 @@
         "group_nudge_prompt": "[Write the next reply only as {{char}}.]",
         "scenario_format": "[Circumstances of the novel: {{scenario}}]",
         "personality_format": "[{{char}}'s personality: {{personality}}]",
-        "openai_model": "claude-3-7-sonnet-20250219",
+        "openai_model": "",
         "claude_model": "claude-3-5-sonnet-20240620",
-        "google_model": "gemini-2.0-flash-lite-preview",
+        "google_model": "gemini-2.0-pro-exp",
         "ai21_model": "jamba-1.5-large",
         "mistralai_model": "mistral-medium",
         "cohere_model": "command-r",
@@ -2246,9 +2279,9 @@
         "nanogpt_model": "gpt-4o-mini",
         "zerooneai_model": "yi-large",
         "blockentropy_model": "be-70b-base-llama3.1",
-        "deepseek_model": "deepseek-chat",
-        "custom_model": "claude-3-7-sonnet-20250219",
-        "custom_url": "",
+        "deepseek_model": "deepseek-reasoner",
+        "custom_model": "gemini-2.0-pro-exp",
+        "custom_url": "https://xiaoxie10162-ly.hf.space/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
@@ -2262,7 +2295,7 @@
         "openrouter_middleout": "on",
         "jailbreak_system": false,
         "reverse_proxy": "",
-        "chat_completion_source": "makersuite",
+        "chat_completion_source": "custom",
         "max_context_unlocked": true,
         "api_url_scale": "",
         "show_external_models": true,
@@ -2282,7 +2315,7 @@
         "continue_postfix": "\n",
         "custom_prompt_post_processing": "strict",
         "show_thoughts": true,
-        "reasoning_effort": "medium",
+        "reasoning_effort": "low",
         "seed": -1,
         "n": 1
     },
