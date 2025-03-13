@@ -1755,7 +1755,7 @@
         "blockentropy_model": "be-70b-base-llama3.1",
         "deepseek_model": "deepseek-reasoner",
         "custom_model": "claude-3-5-sonnet-20240620",
-        "custom_url": "https://api.siliconflow.cn/v1",
+        "custom_url": "https://name-test.hf.space/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
