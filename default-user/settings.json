@@ -2301,7 +2301,7 @@
         "proxy_password": "",
         "assistant_prefill": "",
         "assistant_impersonation": "我将暂停其他任务，以{{user}}视角，生成50字左右的符合逻辑的情节如下：\n",
-        "claude_use_sysprompt": true,
+        "claude_use_sysprompt": false,
         "use_makersuite_sysprompt": true,
         "use_alt_scale": false,
         "squash_system_messages": true,
