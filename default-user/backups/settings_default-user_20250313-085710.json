@@ -14,11 +14,21 @@
         "AlertWI_高贵典雅的妈妈姐姐们的淫乱堕落记录.png": "true",
         "WINavOpened": "true",
         "AlertWI_空银子.png": "true",
-        "__migrated": "1"
+        "__migrated": "1",
+        "AlertWI_林暮雪.png": "true",
+        "AlertWI_林雅.png": "true",
+        "AlertRegex_林雅.png": "true",
+        "AlertWI_樱.png": "true",
+        "AlertWI_络络.png": "true",
+        "AlertRegex_络络.png": "true",
+        "AlertWI_白姝颜.png": "true",
+        "AlertWI_另一个世界.png": "true",
+        "AlertRegex_另一个世界.png": "true",
+        "AlertWI_永夜的公主.png": "true"
     },
     "currentVersion": "1.12.12",
     "username": "谢三",
-    "active_character": "空银子.png",
+    "active_character": "林小雨.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -226,11 +236,11 @@
         "font_scale": 1,
         "blur_strength": 10,
         "shadow_width": 2,
-        "main_text_color": "rgba(220, 220, 210, 1)",
+        "main_text_color": "rgba(173, 235, 235, 1)",
         "italics_text_color": "rgba(145, 145, 145, 1)",
         "underline_text_color": "rgba(188, 231, 207, 1)",
         "quote_text_color": "rgba(225, 138, 36, 1)",
-        "blur_tint_color": "rgba(23, 23, 23, 1)",
+        "blur_tint_color": "rgba(0, 0, 0, 1)",
         "chat_tint_color": "rgba(23, 23, 23, 1)",
         "user_mes_blur_tint_color": "rgba(30, 30, 30, 0.9)",
         "bot_mes_blur_tint_color": "rgba(30, 30, 30, 0.9)",
@@ -541,7 +551,7 @@
                 "placement": [
                     1
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -558,9 +568,26 @@
                 "placement": [
                     2
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "1fc0460f-6074-4c6a-9107-4f8ddfd03215",
+                "scriptName": "隐藏思考",
+                "findRegex": "([\\s\\S]*?)<Hagemi>([\\s\\S]*?)</Hagemi>",
+                "replaceString": "<details><summary>思考</summary>\n<========================>\n$2\n<========================>\n</details>\n",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": false,
                 "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
@@ -569,7 +596,10 @@
         ],
         "character_allowed_regex": [
             "可点击的选择框.png",
-            "高贵典雅的妈妈姐姐们的淫乱堕落记录.png"
+            "高贵典雅的妈妈姐姐们的淫乱堕落记录.png",
+            "林雅.png",
+            "络络.png",
+            "另一个世界.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -771,9 +801,10 @@
             "chara": []
         },
         "quickReplyV2": {
-            "isEnabled": false,
+            "isEnabled": true,
             "isCombined": false,
             "isPopout": false,
+            "showPopoutButton": true,
             "config": {
                 "setList": [
                     {
@@ -1122,7 +1153,14 @@
             "cbb8d01e-048f-4fb9-a157-f0e18f2774fb",
             "4cd45506-4741-430c-8e23-c86509852cc3"
         ],
-        "姐姐1.png": []
+        "姐姐1.png": [],
+        "林暮雪.png": [],
+        "林小雨.png": [],
+        "永夜的公主.png": [],
+        "络络.png": [],
+        "樱.png": [],
+        "白姝颜.png": [],
+        "另一个世界.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -2230,7 +2268,7 @@
         "personality_format": "[{{char}}'s personality: {{personality}}]",
         "openai_model": "claude-3-7-sonnet-20250219",
         "claude_model": "claude-3-5-sonnet-20240620",
-        "google_model": "gemini-2.0-flash",
+        "google_model": "gemini-2.0-flash-thinking-exp-01-21",
         "ai21_model": "jamba-1.5-large",
         "mistralai_model": "mistral-medium",
         "cohere_model": "command-r",
@@ -2239,9 +2277,9 @@
         "nanogpt_model": "gpt-4o-mini",
         "zerooneai_model": "yi-large",
         "blockentropy_model": "be-70b-base-llama3.1",
-        "deepseek_model": "deepseek-chat",
+        "deepseek_model": "deepseek-reasoner",
         "custom_model": "claude-3-7-sonnet-20250219",
-        "custom_url": "",
+        "custom_url": "https://api.siliconflow.cn/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
@@ -2275,7 +2313,7 @@
         "continue_postfix": "\n",
         "custom_prompt_post_processing": "strict",
         "show_thoughts": true,
-        "reasoning_effort": "medium",
+        "reasoning_effort": "low",
         "seed": -1,
         "n": 1
     },
