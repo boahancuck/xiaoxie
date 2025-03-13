@@ -1224,7 +1224,7 @@
     },
     "oai_settings": {
         "preset_settings_openai": "Muses 0.4",
-        "temp_openai": 1.2,
+        "temp_openai": 1,
         "freq_pen_openai": 0.67,
         "pres_pen_openai": 0.5,
         "top_p_openai": 0.7,
@@ -1233,7 +1233,7 @@
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
         "stream_openai": false,
-        "openai_max_context": 2000000,
+        "openai_max_context": 200000,
         "openai_max_tokens": 12345,
         "wrap_in_quotes": false,
         "prompts": [
@@ -1753,7 +1753,7 @@
         "openrouter_middleout": "on",
         "jailbreak_system": false,
         "reverse_proxy": "",
-        "chat_completion_source": "custom",
+        "chat_completion_source": "claude",
         "max_context_unlocked": true,
         "api_url_scale": "",
         "show_external_models": false,
