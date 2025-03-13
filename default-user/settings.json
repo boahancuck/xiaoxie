@@ -1224,7 +1224,7 @@
     },
     "oai_settings": {
         "preset_settings_openai": "Muses 0.4",
-        "temp_openai": 1,
+        "temp_openai": 0.9,
         "freq_pen_openai": 0.67,
         "pres_pen_openai": 0.5,
         "top_p_openai": 0.7,
@@ -1232,7 +1232,7 @@
         "min_p_openai": 0,
         "top_a_openai": 0,
         "repetition_penalty_openai": 1,
-        "stream_openai": true,
+        "stream_openai": false,
         "openai_max_context": 200000,
         "openai_max_tokens": 12345,
         "wrap_in_quotes": false,
