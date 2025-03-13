@@ -1744,7 +1744,7 @@
         "personality_format": "[{{char}}'s personality: {{personality}}]",
         "openai_model": "gpt-3.5-turbo",
         "claude_model": "claude-instant-v1",
-        "google_model": "gemini-2.0-flash-lite-preview",
+        "google_model": "gemini-2.0-pro-exp",
         "ai21_model": "jamba-1.5-large",
         "mistralai_model": "mistral-medium-latest",
         "cohere_model": "command-r",
