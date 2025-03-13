@@ -23,11 +23,12 @@
         "AlertRegex_络络.png": "true",
         "AlertWI_白姝颜.png": "true",
         "AlertWI_另一个世界.png": "true",
-        "AlertRegex_另一个世界.png": "true"
+        "AlertRegex_另一个世界.png": "true",
+        "AlertWI_永夜的公主.png": "true"
     },
     "currentVersion": "1.12.12",
     "username": "谢三",
-    "active_character": "林小雨.png",
+    "active_character": "永夜的公主.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
