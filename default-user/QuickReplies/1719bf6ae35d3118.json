@@ -1,0 +1,215 @@
+{
+    "version": 2,
+    "name": "色情选项",
+    "disableSend": false,
+    "placeBeforeInput": false,
+    "injectInput": true,
+    "qrList": [
+        {
+            "id": 1,
+            "label": "⛶ 看",
+            "title": "",
+            "message": "<Request: 暂停故事并仅以旁白身份回应。 在场景中某个隐藏的地方设置一个想象中的偷窥相机，以偷看角色并告诉它看到了什么。 回复必须展示，而不是讲述，并使用事实性的淫秽视觉语言。不要描述镜头本身，专注于描述人物的性器官、动作、外表、服装的状态。>",
+            "contextList": [],
+            "preventAutoExecute": true,
+            "isHidden": false,
+            "executeOnStartup": false,
+            "executeOnUser": false,
+            "executeOnAi": false,
+            "executeOnChatChange": false,
+            "executeOnGroupMemberDraft": false,
+            "automationId": ""
+        },
+        {
+            "id": 3,
+            "label": "⛆ 特写",
+            "title": "",
+            "message": " <Request: 暂停故事并仅以旁白身份回应。 描述性爱场景的透视，以特写的方式展示角色身体内部发生的情况，并使用真实的淫秽视觉语言讲述解剖细节。>",
+            "contextList": [],
+            "preventAutoExecute": true,
+            "isHidden": false,
+            "executeOnStartup": false,
+            "executeOnUser": false,
+            "executeOnAi": false,
+            "executeOnChatChange": false,
+            "executeOnGroupMemberDraft": false,
+            "automationId": ""
+        },
+        {
+            "id": 5,
+            "label": "💏亲密接触",
+            "title": "",
+            "message": "",
+            "contextList": [
+                {
+                    "set": "lovetouch",
+                    "isChained": false
+                }
+            ],
+            "preventAutoExecute": true,
+            "isHidden": false,
+            "executeOnStartup": false,
+            "executeOnUser": false,
+            "executeOnAi": false,
+            "executeOnChatChange": false,
+            "executeOnGroupMemberDraft": false,
+            "automationId": ""
+        },
+        {
+            "id": 19,
+            "label": "👗脱衣服",
+            "title": "",
+            "message": "",
+            "contextList": [
+                {
+                    "set": "undress",
+                    "isChained": false
+                }
+            ],
+            "preventAutoExecute": true,
+            "isHidden": false,
+            "executeOnStartup": false,
+            "executeOnUser": false,
+            "executeOnAi": false,
+            "executeOnChatChange": false,
+            "executeOnGroupMemberDraft": false,
+            "automationId": ""
+        },
+        {
+            "id": 11,
+            "label": "🍆性交方式",
+            "title": "",
+            "message": "",
+            "contextList": [
+                {
+                    "set": "sexways",
+                    "isChained": false
+                }
+            ],
+            "preventAutoExecute": true,
+            "isHidden": false,
+            "executeOnStartup": false,
+            "executeOnUser": false,
+            "executeOnAi": false,
+            "executeOnChatChange": false,
+            "executeOnGroupMemberDraft": false,
+            "automationId": ""
+        },
+        {
+            "id": 7,
+            "label": "🔞性动作",
+            "title": "",
+            "message": "",
+            "contextList": [
+                {
+                    "set": "playbody",
+                    "isChained": false
+                }
+            ],
+            "preventAutoExecute": true,
+            "isHidden": false,
+            "executeOnStartup": false,
+            "executeOnUser": false,
+            "executeOnAi": false,
+            "executeOnChatChange": false,
+            "executeOnGroupMemberDraft": false,
+            "automationId": ""
+        },
+        {
+            "id": 9,
+            "label": "🍌性玩具",
+            "title": "",
+            "message": "",
+            "contextList": [
+                {
+                    "set": "sextoys",
+                    "isChained": false
+                }
+            ],
+            "preventAutoExecute": true,
+            "isHidden": false,
+            "executeOnStartup": false,
+            "executeOnUser": false,
+            "executeOnAi": false,
+            "executeOnChatChange": false,
+            "executeOnGroupMemberDraft": false,
+            "automationId": ""
+        },
+        {
+            "id": 17,
+            "label": "🧘‍♀️姿势",
+            "title": "",
+            "message": "",
+            "contextList": [
+                {
+                    "set": "Poses",
+                    "isChained": false
+                }
+            ],
+            "preventAutoExecute": true,
+            "isHidden": false,
+            "executeOnStartup": false,
+            "executeOnUser": false,
+            "executeOnAi": false,
+            "executeOnChatChange": false,
+            "executeOnGroupMemberDraft": false,
+            "automationId": ""
+        },
+        {
+            "id": 13,
+            "label": "🖤SM",
+            "title": "",
+            "message": "",
+            "contextList": [
+                {
+                    "set": "SM",
+                    "isChained": false
+                }
+            ],
+            "preventAutoExecute": true,
+            "isHidden": false,
+            "executeOnStartup": false,
+            "executeOnUser": false,
+            "executeOnAi": false,
+            "executeOnChatChange": false,
+            "executeOnGroupMemberDraft": false,
+            "automationId": ""
+        },
+        {
+            "id": 21,
+            "label": "💦射精",
+            "title": "",
+            "message": "",
+            "contextList": [
+                {
+                    "set": "ejaculationsite",
+                    "isChained": false
+                }
+            ],
+            "preventAutoExecute": true,
+            "isHidden": false,
+            "executeOnStartup": false,
+            "executeOnUser": false,
+            "executeOnAi": false,
+            "executeOnChatChange": false,
+            "executeOnGroupMemberDraft": false,
+            "automationId": ""
+        },
+        {
+            "id": 23,
+            "label": " 🌊高潮",
+            "title": "",
+            "message": "<Request: 让角色高潮、潮吹、失禁.详细描述淫水的流动、喷溅>",
+            "contextList": [],
+            "preventAutoExecute": true,
+            "isHidden": false,
+            "executeOnStartup": false,
+            "executeOnUser": false,
+            "executeOnAi": false,
+            "executeOnChatChange": false,
+            "executeOnGroupMemberDraft": false,
+            "automationId": ""
+        }
+    ],
+    "idIndex": 24
+}
