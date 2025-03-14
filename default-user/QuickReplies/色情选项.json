@@ -2,7 +2,7 @@
     "version": 2,
     "name": "色情选项",
     "disableSend": false,
-    "placeBeforeInput": false,
+    "placeBeforeInput": true,
     "injectInput": true,
     "color": "rgba(0, 0, 0, 0)",
     "onlyBorderColor": false,
