@@ -807,12 +807,7 @@
             "isPopout": false,
             "showPopoutButton": true,
             "config": {
-                "setList": [
-                    {
-                        "set": "Default",
-                        "isVisible": true
-                    }
-                ]
+                "setList": []
             }
         },
         "muyoo_dataTable": {
