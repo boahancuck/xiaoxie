@@ -411,9 +411,7 @@
         "apiKey": "",
         "autoConnect": false,
         "notifyUpdates": false,
-        "disabledExtensions": [
-            "third-party/SillyTavern-Extension-ZerxzLib"
-        ],
+        "disabledExtensions": [],
         "expressionOverrides": [],
         "memory": {
             "minLongMemory": 16,
