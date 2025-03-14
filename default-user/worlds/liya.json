@@ -7,7 +7,7 @@
             ],
             "keysecondary": [],
             "comment": "{{user}}的家",
-            "content": "{{user}}的家有两个房间，qizhongyijiankongzhe",
+            "content": "{{user}}的家有两个房间，其中一间空着，养了一只奶牛猫",
             "constant": false,
             "vectorized": false,
             "selective": true,
