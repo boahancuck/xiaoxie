@@ -5,11 +5,9 @@
         "NavOpened": "true",
         "AlertWI_可点击的选择框.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
-        "AlertRegex_高贵典雅的妈妈姐姐们的淫乱堕落记录.png": "true",
         "LNavOpened": "true",
         "AlertRegex_可点击的选择框.png": "true",
         "AlertWI_霜影剑歌行.png": "true",
-        "AlertWI_高贵典雅的妈妈姐姐们的淫乱堕落记录.png": "true",
         "WINavOpened": "true",
         "AlertWI_空银子.png": "true",
         "__migrated": "1",
@@ -27,7 +25,7 @@
     },
     "currentVersion": "1.12.12",
     "username": "谢三",
-    "active_character": "和青梅竹马的恋爱长跑.png",
+    "active_character": "高贵典雅的妈妈姐姐们的淫乱堕落记录.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -663,7 +661,6 @@
         ],
         "character_allowed_regex": [
             "可点击的选择框.png",
-            "高贵典雅的妈妈姐姐们的淫乱堕落记录.png",
             "林雅.png",
             "络络.png"
         ],
@@ -1210,13 +1207,6 @@
             "1345561466591"
         ],
         "undefined": [],
-        "高贵典雅的妈妈姐姐们的淫乱堕落记录.png": [
-            "1353feca-ce15-41a1-8e51-9d2ee44346bd",
-            "780e7310-a8f9-49ce-9676-dc4117160963",
-            "c5b64c00-67be-4163-9954-3b12ee78d09d",
-            "e723d2de-2e8e-46eb-a47c-da2d8ee4dc7b",
-            "3c9fc9b8-9dad-452d-827d-bcc2b4780396"
-        ],
         "可点击的选择框.png": [],
         "空银子.png": [],
         "霜影剑歌行.png": [],
@@ -1238,7 +1228,8 @@
         "和青梅竹马的恋爱长跑.png": [],
         "画师邻居想被调教!.png": [],
         "林晓芸.png": [],
-        "是悦悦不是锐锐.png": []
+        "是悦悦不是锐锐.png": [],
+        "柳施施.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
