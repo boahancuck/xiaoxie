@@ -347,11 +347,11 @@
         "default_persona": null,
         "persona_descriptions": {
             "user-default.png": {
-                "description": "身长八尺，容貌甚伟。",
+                "description": "身长八尺，容貌甚伟。清纯的大男孩。",
                 "position": 0
             }
         },
-        "persona_description": "身长八尺，容貌甚伟。",
+        "persona_description": "身长八尺，容貌甚伟。清纯的大男孩。",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
