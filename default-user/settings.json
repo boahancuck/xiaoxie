@@ -23,7 +23,8 @@
         "AlertWI_白姝颜.png": "true",
         "AlertWI_永夜的公主.png": "true",
         "AlertWI_莉亚.png": "true",
-        "AlertWI_林晓芸.png": "true"
+        "AlertWI_林晓芸.png": "true",
+        "NavLockOn": "false"
     },
     "currentVersion": "1.12.12",
     "username": "谢三",
@@ -1238,7 +1239,8 @@
         "莉亚.png": [],
         "和青梅竹马的恋爱长跑.png": [],
         "画师邻居想被调教!.png": [],
-        "林晓芸.png": []
+        "林晓芸.png": [],
+        "是悦悦不是锐锐.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
