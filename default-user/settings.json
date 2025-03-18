@@ -1200,6 +1200,46 @@
             "color": "",
             "color2": "",
             "create_date": 1741607159095
+        },
+        {
+            "id": "e08062ba-e1a8-458f-a6f3-b7c2d37970f7",
+            "name": "母子",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "color": "",
+            "color2": "",
+            "create_date": 1742312986807
+        },
+        {
+            "id": "4627d624-38e4-4a75-afb4-c3b1c95a3b02",
+            "name": "乱伦",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "color": "",
+            "color2": "",
+            "create_date": 1742312986807
+        },
+        {
+            "id": "8ccbd49d-9574-4172-867d-8ca4e21c90dc",
+            "name": "NTL",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "color": "",
+            "color2": "",
+            "create_date": 1742312986807
+        },
+        {
+            "id": "30fdac42-95f0-4b95-bf1f-f595c98be9ce",
+            "name": "NTR",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "color": "",
+            "color2": "",
+            "create_date": 1742312986807
         }
     ],
     "tag_map": {
@@ -1229,7 +1269,13 @@
         "画师邻居想被调教!.png": [],
         "林晓芸.png": [],
         "是悦悦不是锐锐.png": [],
-        "柳施施.png": []
+        "柳施施.png": [],
+        "晓慧.png": [
+            "e08062ba-e1a8-458f-a6f3-b7c2d37970f7",
+            "4627d624-38e4-4a75-afb4-c3b1c95a3b02",
+            "8ccbd49d-9574-4172-867d-8ca4e21c90dc",
+            "30fdac42-95f0-4b95-bf1f-f595c98be9ce"
+        ]
     },
     "nai_settings": {
         "temperature": 1.5,
