@@ -593,6 +593,74 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
+            },
+            {
+                "id": "8a8d31da-a16f-4b8b-abf0-bfc0f60645cc",
+                "scriptName": "MyGO!!!!!",
+                "findRegex": "/(?:<npc response[^>]*>|<StatusBlock[^>]*>)(.|\\n)*?<\\/(?:npc response|StatusBlock)>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 4,
+                "maxDepth": null
+            },
+            {
+                "id": "3d9021c0-378c-4509-b432-a4257c01c5d9",
+                "scriptName": "去除多余空格",
+                "findRegex": "/(?<=[\\u4e00-\\u9fff，。…？?“”,.])[ \\t]+(?=[\\u4e00-\\u9fff，。…？?“”,.])| {4,}/gsi",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "c0d977fc-805c-4cd3-ad88-3c8cc21cb048",
+                "scriptName": "mygo去除多余内容",
+                "findRegex": "/<\\/?disclaimer>[\\s\\S]*?<\\/?disclaimer>|<\\/?Revelation>[\\s\\S]*?<\\/?Revelation>|<\\/?disclaimer>[\\s\\S]*|<\\/?Revelation>[\\s\\S]*|『|』|\\*\\*|<story plot>|<\\/story plot>|```(?:End|Start)|<Safe>|<\\/Safe>|<Artistic Intent>.*?<\\/Artistic Intent>|```?disclaimer.*?```?<\\/disclaimer>|```?Revelation[\\s\\S]*|```?Revelation.*?```?<\\/Revelation>|```?disclaimer[\\s\\S]*/gsi",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "651c2865-6acb-49ed-967f-feb1e47a3af1",
+                "scriptName": "隐藏mygo思维链",
+                "findRegex": "/(?:<thinking[^>]*>|<\\Passage[^>]*>).*?<\\/(?:thinking|Passage)>|.*\\[开始创作]|.*\\[使用简体中文开始创作:]/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
