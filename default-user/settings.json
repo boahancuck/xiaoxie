@@ -26,7 +26,7 @@
         "AlertWI_柳施施.png": "true"
     },
     "currentVersion": "1.12.12",
-    "username": "谢三",
+    "username": "关一帆",
     "active_character": "和青梅竹马的恋爱长跑.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -342,7 +342,7 @@
             "max_additions": 1
         },
         "personas": {
-            "user-default.png": "谢三"
+            "user-default.png": "关一帆"
         },
         "default_persona": null,
         "persona_descriptions": {
