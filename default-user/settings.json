@@ -869,7 +869,12 @@
             "isPopout": false,
             "showPopoutButton": true,
             "config": {
-                "setList": []
+                "setList": [
+                    {
+                        "set": "色情选项",
+                        "isVisible": true
+                    }
+                ]
             }
         },
         "muyoo_dataTable": {
