@@ -1063,7 +1063,7 @@
             "addMemo": true,
             "order": 800,
             "position": 4,
-            "disable": false,
+            "disable": true,
             "excludeRecursion": true,
             "preventRecursion": false,
             "delayUntilRecursion": false,
