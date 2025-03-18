@@ -595,23 +595,6 @@
                 "maxDepth": null
             },
             {
-                "id": "8a8d31da-a16f-4b8b-abf0-bfc0f60645cc",
-                "scriptName": "MyGO!!!!!",
-                "findRegex": "/(?:<npc response[^>]*>|<StatusBlock[^>]*>)(.|\\n)*?<\\/(?:npc response|StatusBlock)>/gm",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 4,
-                "maxDepth": null
-            },
-            {
                 "id": "3d9021c0-378c-4509-b432-a4257c01c5d9",
                 "scriptName": "去除多余空格",
                 "findRegex": "/(?<=[\\u4e00-\\u9fff，。…？?“”,.])[ \\t]+(?=[\\u4e00-\\u9fff，。…？?“”,.])| {4,}/gsi",
@@ -660,6 +643,23 @@
                 "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "8a8d31da-a16f-4b8b-abf0-bfc0f60645cc",
+                "scriptName": "MyGO!!!!!",
+                "findRegex": "/(?:<npc response[^>]*>|<StatusBlock[^>]*>)(.|\\n)*?<\\/(?:npc response|StatusBlock)>/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 4,
                 "maxDepth": null
             }
         ],
