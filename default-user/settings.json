@@ -2848,7 +2848,7 @@
     "background": {
         "name": "__transparent.png",
         "url": "url(\"backgrounds/__transparent.png\")",
-        "fitting": "classic"
+        "fitting": "contain"
     },
     "proxies": [
         {
