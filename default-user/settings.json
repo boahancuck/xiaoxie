@@ -22,11 +22,12 @@
         "AlertRegex_络络.png": "true",
         "AlertWI_白姝颜.png": "true",
         "AlertWI_永夜的公主.png": "true",
-        "AlertWI_莉亚.png": "true"
+        "AlertWI_莉亚.png": "true",
+        "AlertWI_林晓芸.png": "true"
     },
     "currentVersion": "1.12.12",
     "username": "谢三",
-    "active_character": "姐姐.png",
+    "active_character": "林晓芸.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
