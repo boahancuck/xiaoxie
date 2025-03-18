@@ -595,17 +595,17 @@
                 "maxDepth": null
             },
             {
-                "id": "3d9021c0-378c-4509-b432-a4257c01c5d9",
-                "scriptName": "去除多余空格",
-                "findRegex": "/(?<=[\\u4e00-\\u9fff，。…？?“”,.])[ \\t]+(?=[\\u4e00-\\u9fff，。…？?“”,.])| {4,}/gsi",
+                "id": "651c2865-6acb-49ed-967f-feb1e47a3af1",
+                "scriptName": "隐藏mygo思维链",
+                "findRegex": "/(?:<thinking[^>]*>|<\\Passage[^>]*>).*?<\\/(?:thinking|Passage)>|.*\\[开始创作]|.*\\[使用简体中文开始创作:]/gs",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
                 "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": false,
+                "markdownOnly": true,
+                "promptOnly": true,
                 "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
@@ -629,17 +629,17 @@
                 "maxDepth": null
             },
             {
-                "id": "651c2865-6acb-49ed-967f-feb1e47a3af1",
-                "scriptName": "隐藏mygo思维链",
-                "findRegex": "/(?:<thinking[^>]*>|<\\Passage[^>]*>).*?<\\/(?:thinking|Passage)>|.*\\[开始创作]|.*\\[使用简体中文开始创作:]/gs",
+                "id": "3d9021c0-378c-4509-b432-a4257c01c5d9",
+                "scriptName": "去除多余空格",
+                "findRegex": "/(?<=[\\u4e00-\\u9fff，。…？?“”,.])[ \\t]+(?=[\\u4e00-\\u9fff，。…？?“”,.])| {4,}/gsi",
                 "replaceString": "",
                 "trimStrings": [],
                 "placement": [
                     2
                 ],
                 "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
+                "markdownOnly": false,
+                "promptOnly": false,
                 "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
