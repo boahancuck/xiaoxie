@@ -1997,7 +1997,7 @@
         "zerooneai_model": "yi-large",
         "blockentropy_model": "be-70b-base-llama3.1",
         "deepseek_model": "deepseek-reasoner",
-        "custom_model": "deepseek/deepseek-r1/community",
+        "custom_model": "claude-3-7-sonnet-20250219",
         "custom_url": "https://syferie.zone.id/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
