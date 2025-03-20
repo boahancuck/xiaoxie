@@ -871,7 +871,12 @@
             "isPopout": false,
             "showPopoutButton": true,
             "config": {
-                "setList": []
+                "setList": [
+                    {
+                        "set": "场景感",
+                        "isVisible": true
+                    }
+                ]
             }
         },
         "muyoo_dataTable": {
