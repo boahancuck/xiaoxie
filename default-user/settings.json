@@ -542,23 +542,6 @@
                 "promptOnly": true
             },
             {
-                "id": "651c2865-6acb-49ed-967f-feb1e47a3af1",
-                "scriptName": "隐藏mygo思维链",
-                "findRegex": "/(?:<thinking[^>]*>|<\\Passage[^>]*>).*?<\\/(?:thinking|Passage)>|.*\\[开始创作]|.*\\[使用简体中文开始创作:]/gs",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
                 "id": "0e859ccf-a4bb-490c-ae3d-4f9a28b48a0c",
                 "scriptName": "【Lyean】用户输入添加tag",
                 "findRegex": "^([\\s\\S]*)$",
@@ -604,6 +587,23 @@
                 "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "651c2865-6acb-49ed-967f-feb1e47a3af1",
+                "scriptName": "隐藏mygo思维链",
+                "findRegex": "/(?:<thinking[^>]*>|<\\Passage[^>]*>).*?<\\/(?:thinking|Passage)>|.*\\[开始创作]|.*\\[使用简体中文开始创作:]/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
                 "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": null,
