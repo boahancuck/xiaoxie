@@ -901,14 +901,14 @@
             "chara": []
         },
         "quickReplyV2": {
-            "isEnabled": false,
+            "isEnabled": true,
             "isCombined": false,
             "isPopout": false,
             "showPopoutButton": true,
             "config": {
                 "setList": [
                     {
-                        "set": "场景感",
+                        "set": "色情选项",
                         "isVisible": true
                     }
                 ]
