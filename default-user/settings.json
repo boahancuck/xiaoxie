@@ -901,7 +901,7 @@
             "chara": []
         },
         "quickReplyV2": {
-            "isEnabled": true,
+            "isEnabled": false,
             "isCombined": false,
             "isPopout": false,
             "showPopoutButton": true,
