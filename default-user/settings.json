@@ -2270,11 +2270,11 @@
                     },
                     {
                         "identifier": "7f527116-dca5-4405-88e5-a13e589bea3b",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "1fe2fe47-c145-42eb-abb3-1c0fccf0b452",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "06f8084b-cdcb-4451-883b-a92fc5e32c75",
@@ -2314,7 +2314,7 @@
                     },
                     {
                         "identifier": "90c4768d-3fb4-47dc-9140-40e6a400b43c",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "jailbreak",
