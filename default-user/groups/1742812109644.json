@@ -1,0 +1,32 @@
+{
+    "id": "1742812109644",
+    "name": "Group: 姐姐",
+    "members": [
+        "姐姐1.png"
+    ],
+    "avatar_url": "/thumbnail?type=avatar&file=%E5%A7%90%E5%A7%901.png",
+    "allow_self_responses": false,
+    "activation_strategy": false,
+    "generation_mode": 0,
+    "disabled_members": [],
+    "chat_metadata": {
+        "chat_id_hash": 6383871972935099,
+        "note_prompt": "",
+        "note_interval": 1,
+        "note_position": 1,
+        "note_depth": 4,
+        "note_role": 0,
+        "timedWorldInfo": {
+            "sticky": {},
+            "cooldown": {}
+        }
+    },
+    "fav": false,
+    "chat_id": "2025-03-24@18h28m28s",
+    "chats": [
+        "2025-03-24@18h28m28s"
+    ],
+    "auto_mode_delay": 5,
+    "generation_mode_join_prefix": "",
+    "generation_mode_join_suffix": ""
+}
