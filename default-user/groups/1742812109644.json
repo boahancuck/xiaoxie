@@ -21,7 +21,8 @@
             "sticky": {},
             "cooldown": {}
         },
-        "tainted": true
+        "tainted": true,
+        "lastInContextMessageId": 0
     },
     "fav": false,
     "chat_id": "2025-03-24@18h28m28s",
@@ -33,7 +34,7 @@
     "generation_mode_join_suffix": "",
     "date_added": 1742812109642.4285,
     "create_date": "2025-3-24 @10h 28m 29s 642ms",
-    "date_last_chat": 1742812137659,
+    "date_last_chat": 1742812147125,
     "chat_size": 0,
     "past_metadata": {}
 }
