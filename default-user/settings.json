@@ -1290,8 +1290,8 @@
         },
         {
             "id": "d25ecd5e-c8e1-417e-b8fb-497308645699",
-            "name": "New Tag",
-            "folder_type": "NONE",
+            "name": "旧卡",
+            "folder_type": "OPEN",
             "filter_state": "UNDEFINED",
             "sort_order": null,
             "color": "",
