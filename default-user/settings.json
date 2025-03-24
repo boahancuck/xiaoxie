@@ -9,7 +9,6 @@
         "AlertRegex_可点击的选择框.png": "true",
         "AlertWI_霜影剑歌行.png": "true",
         "WINavOpened": "true",
-        "AlertWI_空银子.png": "true",
         "__migrated": "1",
         "AlertWI_林暮雪.png": "true",
         "AlertWI_林雅.png": "true",
@@ -32,7 +31,7 @@
     },
     "currentVersion": "1.12.12",
     "username": "关一帆",
-    "active_character": "空银子.png",
+    "active_character": "林暮雪.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -707,7 +706,7 @@
             "狐妖美母苏墨璃.png",
             "刘羽柔1.png",
             "林晓芸.png",
-            "空银子.png"
+            "林暮雪.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1261,7 +1260,6 @@
         ],
         "undefined": [],
         "可点击的选择框.png": [],
-        "空银子.png": [],
         "霜影剑歌行.png": [],
         "林雅.png": [
             "5dc6fcd9-9a49-4243-a9da-3090b6cf3a41",
