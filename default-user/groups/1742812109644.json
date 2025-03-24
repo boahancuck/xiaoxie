@@ -2,6 +2,7 @@
     "id": "1742812109644",
     "name": "Group: 姐姐",
     "members": [
+        "和青梅竹马的恋爱长跑.png",
         "姐姐1.png"
     ],
     "avatar_url": "/thumbnail?type=avatar&file=%E5%A7%90%E5%A7%901.png",
@@ -28,5 +29,10 @@
     ],
     "auto_mode_delay": 5,
     "generation_mode_join_prefix": "",
-    "generation_mode_join_suffix": ""
+    "generation_mode_join_suffix": "",
+    "date_added": 1742812109642.4285,
+    "create_date": "2025-3-24 @10h 28m 29s 642ms",
+    "date_last_chat": 0,
+    "chat_size": 0,
+    "past_metadata": {}
 }
