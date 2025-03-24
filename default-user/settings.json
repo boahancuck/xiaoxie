@@ -367,7 +367,7 @@
         "fuzzy_search": true,
         "encode_tags": false,
         "servers": [],
-        "bogus_folders": false,
+        "bogus_folders": true,
         "zoomed_avatar_magnification": false,
         "show_tag_filters": false,
         "aux_field": "character_version",
@@ -1145,7 +1145,8 @@
         {
             "id": "1345561466591",
             "name": "ST Default",
-            "color": "rgba(108, 32, 32, 1)"
+            "color": "rgba(108, 32, 32, 1)",
+            "color2": ""
         },
         {
             "id": "1353feca-ce15-41a1-8e51-9d2ee44346bd",
@@ -1286,6 +1287,16 @@
             "color": "",
             "color2": "",
             "create_date": 1742312986807
+        },
+        {
+            "id": "d25ecd5e-c8e1-417e-b8fb-497308645699",
+            "name": "New Tag",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": null,
+            "color": "",
+            "color2": "",
+            "create_date": 1742791548438
         }
     ],
     "tag_map": {
