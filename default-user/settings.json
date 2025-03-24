@@ -23,7 +23,7 @@
     },
     "currentVersion": "1.12.12",
     "username": "关一帆",
-    "active_character": "刘羽柔1.png",
+    "active_character": "唐雨柔.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -695,7 +695,8 @@
             "可点击的选择框.png",
             "络络.png",
             "狐妖美母苏墨璃.png",
-            "刘羽柔1.png"
+            "刘羽柔1.png",
+            "唐雨柔.png"
         ],
         "tts": {
             "voiceMap": "",
