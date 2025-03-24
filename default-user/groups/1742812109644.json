@@ -11,30 +11,40 @@
     "generation_mode": 0,
     "disabled_members": [],
     "chat_metadata": {
-        "chat_id_hash": 6383871972935099,
+        "chat_id_hash": 2285971995847307,
         "note_prompt": "",
         "note_interval": 1,
         "note_position": 1,
         "note_depth": 4,
-        "note_role": 0,
-        "timedWorldInfo": {
-            "sticky": {},
-            "cooldown": {}
-        },
-        "tainted": true,
-        "lastInContextMessageId": 0
+        "note_role": 0
     },
     "fav": false,
-    "chat_id": "2025-03-24@18h28m28s",
+    "chat_id": "2025-03-24@18h32m01s",
     "chats": [
-        "2025-03-24@18h28m28s"
+        "2025-03-24@18h28m28s",
+        "2025-03-24@18h32m01s"
     ],
     "auto_mode_delay": 5,
     "generation_mode_join_prefix": "",
     "generation_mode_join_suffix": "",
     "date_added": 1742812109642.4285,
     "create_date": "2025-3-24 @10h 28m 29s 642ms",
-    "date_last_chat": 1742812303664,
+    "date_last_chat": 1742812322381,
     "chat_size": 0,
-    "past_metadata": {}
+    "past_metadata": {
+        "2025-03-24@18h28m28s": {
+            "chat_id_hash": 6383871972935099,
+            "note_prompt": "",
+            "note_interval": 1,
+            "note_position": 1,
+            "note_depth": 4,
+            "note_role": 0,
+            "timedWorldInfo": {
+                "sticky": {},
+                "cooldown": {}
+            },
+            "tainted": true,
+            "lastInContextMessageId": 0
+        }
+    }
 }
