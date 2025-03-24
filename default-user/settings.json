@@ -17,7 +17,6 @@
         "NavLockOn": "false",
         "AlertWI_晓慧.png": "true",
         "AlertWI_柳施施.png": "true",
-        "AlertWI_画师邻居想被调教!.png": "true",
         "AlertWI_唐雨柔.png": "true",
         "AlertWI_狐妖美母苏墨璃.png": "true",
         "AlertRegex_狐妖美母苏墨璃.png": "true",
@@ -26,7 +25,7 @@
     },
     "currentVersion": "1.12.12",
     "username": "关一帆",
-    "active_character": "画师邻居想被调教!.png",
+    "active_character": "莉亚.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -700,7 +699,7 @@
             "狐妖美母苏墨璃.png",
             "刘羽柔1.png",
             "林晓芸.png",
-            "画师邻居想被调教!.png"
+            "莉亚.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1259,7 +1258,6 @@
         "樱.png": [],
         "莉亚.png": [],
         "和青梅竹马的恋爱长跑.png": [],
-        "画师邻居想被调教!.png": [],
         "林晓芸.png": [],
         "是悦悦不是锐锐.png": [],
         "柳施施.png": [],
