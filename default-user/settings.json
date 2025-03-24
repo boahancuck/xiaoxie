@@ -24,7 +24,7 @@
     },
     "currentVersion": "1.12.12",
     "username": "关一帆",
-    "active_group": "1742812109644",
+    "active_character": "晓慧.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -702,7 +702,8 @@
             "柳施施.png",
             "是悦悦不是锐锐.png",
             "樱.png",
-            "姐姐1.png"
+            "姐姐1.png",
+            "晓慧.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1270,8 +1271,7 @@
         ],
         "狐妖美母苏墨璃.png": [],
         "唐雨柔.png": [],
-        "刘羽柔1.png": [],
-        "1742812109644": []
+        "刘羽柔1.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
