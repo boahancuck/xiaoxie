@@ -12,8 +12,6 @@
         "AlertWI_樱.png": "true",
         "AlertWI_络络.png": "true",
         "AlertRegex_络络.png": "true",
-        "AlertWI_莉亚.png": "true",
-        "AlertWI_林晓芸.png": "true",
         "NavLockOn": "false",
         "AlertWI_晓慧.png": "true",
         "AlertWI_柳施施.png": "true",
@@ -25,7 +23,7 @@
     },
     "currentVersion": "1.12.12",
     "username": "关一帆",
-    "active_character": "莉亚.png",
+    "active_character": "林晓芸.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -697,9 +695,7 @@
             "可点击的选择框.png",
             "络络.png",
             "狐妖美母苏墨璃.png",
-            "刘羽柔1.png",
-            "林晓芸.png",
-            "莉亚.png"
+            "刘羽柔1.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1256,9 +1252,7 @@
         "姐姐1.png": [],
         "络络.png": [],
         "樱.png": [],
-        "莉亚.png": [],
         "和青梅竹马的恋爱长跑.png": [],
-        "林晓芸.png": [],
         "是悦悦不是锐锐.png": [],
         "柳施施.png": [],
         "晓慧.png": [
