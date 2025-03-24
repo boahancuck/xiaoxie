@@ -2,7 +2,7 @@
     "firstRun": false,
     "accountStorage": {
         "SelectedNavTab": "rm_button_characters",
-        "NavOpened": "false",
+        "NavOpened": "true",
         "AlertWI_可点击的选择框.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
         "LNavOpened": "true",
@@ -19,11 +19,12 @@
         "AlertWI_狐妖美母苏墨璃.png": "true",
         "AlertRegex_狐妖美母苏墨璃.png": "true",
         "AlertRegex_刘羽柔1.png": "true",
-        "mediaWarningShown:刘羽柔1.png": "true"
+        "mediaWarningShown:刘羽柔1.png": "true",
+        "AlertWI_是悦悦不是锐锐.png": "true"
     },
     "currentVersion": "1.12.12",
     "username": "关一帆",
-    "active_character": "刘羽柔1.png",
+    "active_character": "是悦悦不是锐锐.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -698,7 +699,8 @@
             "刘羽柔1.png",
             "唐雨柔.png",
             "和青梅竹马的恋爱长跑.png",
-            "柳施施.png"
+            "柳施施.png",
+            "是悦悦不是锐锐.png"
         ],
         "tts": {
             "voiceMap": "",
