@@ -24,7 +24,7 @@
     },
     "currentVersion": "1.12.12",
     "username": "关一帆",
-    "active_character": "樱.png",
+    "active_character": "姐姐1.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -701,7 +701,8 @@
             "和青梅竹马的恋爱长跑.png",
             "柳施施.png",
             "是悦悦不是锐锐.png",
-            "樱.png"
+            "樱.png",
+            "姐姐1.png"
         ],
         "tts": {
             "voiceMap": "",
