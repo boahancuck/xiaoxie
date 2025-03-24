@@ -556,7 +556,7 @@
                 "placement": [
                     1
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -573,7 +573,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -1126,7 +1126,8 @@
                 "ambient_current_time": 0,
                 "audio_cooldown": 0,
                 "enabled": true
-            }
+            },
+            "auto_enable_character_regex": true
         },
         "extension-zerxz-lib": {
             "HtmlInjector": {
