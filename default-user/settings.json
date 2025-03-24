@@ -26,7 +26,7 @@
     },
     "currentVersion": "1.12.12",
     "username": "关一帆",
-    "active_character": "永夜的公主.png",
+    "active_character": "画师邻居想被调教!.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -35,7 +35,9 @@
     "main_api": "openai",
     "world_info_settings": {
         "world_info": {
-            "globalSelect": []
+            "globalSelect": [
+                "【选择框】"
+            ]
         },
         "world_info_depth": 2,
         "world_info_min_activations": 0,
@@ -699,7 +701,8 @@
             "络络.png",
             "狐妖美母苏墨璃.png",
             "刘羽柔1.png",
-            "林晓芸.png"
+            "林晓芸.png",
+            "画师邻居想被调教!.png"
         ],
         "tts": {
             "voiceMap": "",
