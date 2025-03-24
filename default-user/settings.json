@@ -27,11 +27,14 @@
         "AlertWI_画师邻居想被调教!.png": "true",
         "AlertWI_唐雨柔.png": "true",
         "AlertWI_狐妖美母苏墨璃.png": "true",
-        "AlertRegex_狐妖美母苏墨璃.png": "true"
+        "AlertRegex_狐妖美母苏墨璃.png": "true",
+        "AlertWI_刘羽柔.png": "true",
+        "AlertRegex_刘羽柔.png": "true",
+        "mediaWarningShown:刘羽柔.png": "true"
     },
     "currentVersion": "1.12.12",
     "username": "关一帆",
-    "active_character": "柳施施.png",
+    "active_character": "刘羽柔.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -703,7 +706,8 @@
             "可点击的选择框.png",
             "林雅.png",
             "络络.png",
-            "狐妖美母苏墨璃.png"
+            "狐妖美母苏墨璃.png",
+            "刘羽柔.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1285,7 +1289,8 @@
             "30fdac42-95f0-4b95-bf1f-f595c98be9ce"
         ],
         "狐妖美母苏墨璃.png": [],
-        "唐雨柔.png": []
+        "唐雨柔.png": [],
+        "刘羽柔.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
