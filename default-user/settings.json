@@ -22,8 +22,6 @@
         "AlertWI_是悦悦不是锐锐.png": "true",
         "AlertWI_白上吹雪.png": "true",
         "AlertRegex_白上吹雪.png": "true",
-        "AlertWI_苏婉清.png": "true",
-        "AlertRegex_苏婉清.png": "true",
         "AlertWI_桐岛樱子.png": "true",
         "AlertRegex_桐岛樱子.png": "true"
     },
@@ -716,8 +714,7 @@
             "是悦悦不是锐锐.png",
             "樱.png",
             "白上吹雪.png",
-            "桐岛樱子.png",
-            "苏婉清.png"
+            "桐岛樱子.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1292,7 +1289,6 @@
         "白上吹雪.png": [
             "fa1e4f20-a931-441a-ac22-5287f1a4f147"
         ],
-        "苏婉清.png": [],
         "桐岛樱子.png": []
     },
     "nai_settings": {
