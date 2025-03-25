@@ -2379,7 +2379,7 @@
         "zerooneai_model": "yi-large",
         "blockentropy_model": "be-70b-base-llama3.1",
         "deepseek_model": "deepseek-reasoner",
-        "custom_model": "gemma-3-27b-it",
+        "custom_model": "gemini-embedding-exp",
         "custom_url": "https://xiaoxie10162-ly.hf.space/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
