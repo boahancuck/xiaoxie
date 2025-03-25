@@ -21,11 +21,15 @@
         "mediaWarningShown:刘羽柔1.png": "true",
         "AlertWI_是悦悦不是锐锐.png": "true",
         "AlertWI_白上吹雪.png": "true",
-        "AlertRegex_白上吹雪.png": "true"
+        "AlertRegex_白上吹雪.png": "true",
+        "AlertWI_苏婉清.png": "true",
+        "AlertRegex_苏婉清.png": "true",
+        "AlertWI_桐岛樱子.png": "true",
+        "AlertRegex_桐岛樱子.png": "true"
     },
     "currentVersion": "1.12.12",
     "username": "关一帆",
-    "active_character": "苏婉清.png",
+    "active_character": "桐岛樱子.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -711,7 +715,9 @@
             "柳施施.png",
             "是悦悦不是锐锐.png",
             "樱.png",
-            "白上吹雪.png"
+            "白上吹雪.png",
+            "桐岛樱子.png",
+            "苏婉清.png"
         ],
         "tts": {
             "voiceMap": "",
