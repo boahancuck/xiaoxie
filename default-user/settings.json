@@ -19,11 +19,13 @@
         "AlertRegex_狐妖美母苏墨璃.png": "true",
         "AlertRegex_刘羽柔1.png": "true",
         "mediaWarningShown:刘羽柔1.png": "true",
-        "AlertWI_是悦悦不是锐锐.png": "true"
+        "AlertWI_是悦悦不是锐锐.png": "true",
+        "AlertWI_白上吹雪.png": "true",
+        "AlertRegex_白上吹雪.png": "true"
     },
     "currentVersion": "1.12.12",
     "username": "关一帆",
-    "active_character": "唐雨柔.png",
+    "active_character": "白上吹雪.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -700,7 +702,8 @@
             "和青梅竹马的恋爱长跑.png",
             "柳施施.png",
             "是悦悦不是锐锐.png",
-            "樱.png"
+            "樱.png",
+            "白上吹雪.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1246,6 +1249,16 @@
             "color": "",
             "color2": "",
             "create_date": 1742791548438
+        },
+        {
+            "id": "fa1e4f20-a931-441a-ac22-5287f1a4f147",
+            "name": "Vtuber",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": 16,
+            "color": "",
+            "color2": "",
+            "create_date": 1742886179006
         }
     ],
     "tag_map": {
@@ -1261,7 +1274,10 @@
         "柳施施.png": [],
         "狐妖美母苏墨璃.png": [],
         "唐雨柔.png": [],
-        "刘羽柔1.png": []
+        "刘羽柔1.png": [],
+        "白上吹雪.png": [
+            "fa1e4f20-a931-441a-ac22-5287f1a4f147"
+        ]
     },
     "nai_settings": {
         "temperature": 1.5,
