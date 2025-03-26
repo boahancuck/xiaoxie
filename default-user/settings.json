@@ -558,7 +558,7 @@
                 "placement": [
                     1
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": true,
                 "runOnEdit": true,
@@ -575,7 +575,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": true,
                 "promptOnly": true,
                 "runOnEdit": true,
