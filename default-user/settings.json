@@ -601,23 +601,6 @@
                 "maxDepth": null
             },
             {
-                "id": "651c2865-6acb-49ed-967f-feb1e47a3af1",
-                "scriptName": "隐藏mygo思维链",
-                "findRegex": "/(?:<thinking[^>]*>|<\\Passage[^>]*>).*?<\\/(?:thinking|Passage)>|.*\\[开始创作]|.*\\[使用简体中文开始创作:]/gs",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": true,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
                 "id": "c0d977fc-805c-4cd3-ad88-3c8cc21cb048",
                 "scriptName": "mygo去除多余内容",
                 "findRegex": "/<\\/?disclaimer>[\\s\\S]*?<\\/?disclaimer>|<\\/?Revelation>[\\s\\S]*?<\\/?Revelation>|<\\/?disclaimer>[\\s\\S]*|<\\/?Revelation>[\\s\\S]*|『|』|\\*\\*|<story plot>|<\\/story plot>|```(?:End|Start)|<Safe>|<\\/Safe>|<Artistic Intent>.*?<\\/Artistic Intent>|```?disclaimer.*?```?<\\/disclaimer>|```?Revelation[\\s\\S]*|```?Revelation.*?```?<\\/Revelation>|```?disclaimer[\\s\\S]*/gsi",
@@ -666,6 +649,23 @@
                 "runOnEdit": true,
                 "substituteRegex": 0,
                 "minDepth": 4,
+                "maxDepth": null
+            },
+            {
+                "id": "651c2865-6acb-49ed-967f-feb1e47a3af1",
+                "scriptName": "隐藏mygo思维链",
+                "findRegex": "/(?:<thinking[^>]*>|<\\Passage[^>]*>).*?<\\/(?:thinking|Passage)>|.*\\[开始创作]|.*\\[使用简体中文开始创作:]/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": true,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
                 "maxDepth": null
             },
             {
