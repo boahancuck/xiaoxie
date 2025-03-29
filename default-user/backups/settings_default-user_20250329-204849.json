@@ -7,27 +7,27 @@
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
         "LNavOpened": "true",
         "AlertRegex_可点击的选择框.png": "true",
-        "AlertWI_霜影剑歌行.png": "true",
         "WINavOpened": "true",
-        "AlertWI_空银子.png": "true",
         "__migrated": "1",
-        "AlertWI_林暮雪.png": "true",
-        "AlertWI_林雅.png": "true",
-        "AlertRegex_林雅.png": "true",
         "AlertWI_樱.png": "true",
         "AlertWI_络络.png": "true",
         "AlertRegex_络络.png": "true",
-        "AlertWI_白姝颜.png": "true",
-        "AlertWI_永夜的公主.png": "true",
-        "AlertWI_莉亚.png": "true",
-        "AlertWI_林晓芸.png": "true",
         "NavLockOn": "false",
-        "AlertWI_晓慧.png": "true",
-        "AlertWI_柳施施.png": "true"
+        "AlertWI_柳施施.png": "true",
+        "AlertWI_唐雨柔.png": "true",
+        "AlertWI_狐妖美母苏墨璃.png": "true",
+        "AlertRegex_狐妖美母苏墨璃.png": "true",
+        "AlertRegex_刘羽柔1.png": "true",
+        "mediaWarningShown:刘羽柔1.png": "true",
+        "AlertWI_是悦悦不是锐锐.png": "true",
+        "AlertWI_白上吹雪.png": "true",
+        "AlertRegex_白上吹雪.png": "true",
+        "AlertWI_桐岛樱子.png": "true",
+        "AlertRegex_桐岛樱子.png": "true"
     },
     "currentVersion": "1.12.12",
     "username": "关一帆",
-    "active_character": "林小雨.png",
+    "active_character": "络络.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -36,7 +36,15 @@
     "main_api": "openai",
     "world_info_settings": {
         "world_info": {
-            "globalSelect": []
+            "globalSelect": [],
+            "charLore": [
+                {
+                    "name": "白上吹雪",
+                    "extraBooks": [
+                        "ShirakamiFubukiSex"
+                    ]
+                }
+            ]
         },
         "world_info_depth": 2,
         "world_info_min_activations": 0,
@@ -199,7 +207,7 @@
         "trusted_workers_only": false
     },
     "power_user": {
-        "charListGrid": false,
+        "charListGrid": true,
         "tokenizer": 99,
         "token_padding": 64,
         "collapse_newlines": false,
@@ -363,7 +371,7 @@
         "fuzzy_search": true,
         "encode_tags": false,
         "servers": [],
-        "bogus_folders": false,
+        "bogus_folders": true,
         "zoomed_avatar_magnification": false,
         "show_tag_filters": false,
         "aux_field": "character_version",
@@ -393,7 +401,7 @@
         "show_swipe_num_all_messages": false,
         "auto_connect": true,
         "auto_load_chat": false,
-        "forbid_external_media": true,
+        "forbid_external_media": false,
         "external_media_allowed_overrides": [],
         "external_media_forbidden_overrides": [],
         "ui_mode": 1,
@@ -474,9 +482,9 @@
         },
         "caption": {
             "refine_mode": false,
-            "source": "extras",
-            "multimodal_api": "openai",
-            "multimodal_model": "gpt-4-turbo",
+            "source": "multimodal",
+            "multimodal_api": "custom",
+            "multimodal_model": "custom_current",
             "prompt": "What's in this image?",
             "template": "[{{user}} sends {{char}} a picture that contains: {{caption}}]"
         },
@@ -593,23 +601,6 @@
                 "maxDepth": null
             },
             {
-                "id": "651c2865-6acb-49ed-967f-feb1e47a3af1",
-                "scriptName": "隐藏mygo思维链",
-                "findRegex": "/(?:<thinking[^>]*>|<\\Passage[^>]*>).*?<\\/(?:thinking|Passage)>|.*\\[开始创作]|.*\\[使用简体中文开始创作:]/gs",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": false,
-                "markdownOnly": true,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
                 "id": "c0d977fc-805c-4cd3-ad88-3c8cc21cb048",
                 "scriptName": "mygo去除多余内容",
                 "findRegex": "/<\\/?disclaimer>[\\s\\S]*?<\\/?disclaimer>|<\\/?Revelation>[\\s\\S]*?<\\/?Revelation>|<\\/?disclaimer>[\\s\\S]*|<\\/?Revelation>[\\s\\S]*|『|』|\\*\\*|<story plot>|<\\/story plot>|```(?:End|Start)|<Safe>|<\\/Safe>|<Artistic Intent>.*?<\\/Artistic Intent>|```?disclaimer.*?```?<\\/disclaimer>|```?Revelation[\\s\\S]*|```?Revelation.*?```?<\\/Revelation>|```?disclaimer[\\s\\S]*/gsi",
@@ -661,6 +652,23 @@
                 "maxDepth": null
             },
             {
+                "id": "651c2865-6acb-49ed-967f-feb1e47a3af1",
+                "scriptName": "隐藏mygo思维链",
+                "findRegex": "/(?:<thinking[^>]*>|<\\Passage[^>]*>).*?<\\/(?:thinking|Passage)>|.*\\[开始创作]|.*\\[使用简体中文开始创作:]/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": false,
+                "markdownOnly": true,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
                 "id": "f1f4f60c-e4e6-4c2c-bd1b-4b1698a49a06",
                 "scriptName": "mygo去除拉丁语系外语",
                 "findRegex": "/(?<=[， 。,“” …❤️！!：:？?¿'\\u4e00-\\u9fff])(([a-zA-Z\\u00C0-\\u00FF\\u0100-\\u017F\\u0180-\\u024F\\u0250-\\u02AF\\u1EA0-\\u1EF9][\\u0300-\\u036F]*)+)(?=[，。 ,“” …❤️!！：:？?¿'\\u4e00-\\u9fff])/gusi",
@@ -669,7 +677,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": false,
                 "promptOnly": false,
                 "runOnEdit": true,
@@ -686,7 +694,7 @@
                 "placement": [
                     2
                 ],
-                "disabled": false,
+                "disabled": true,
                 "markdownOnly": false,
                 "promptOnly": false,
                 "runOnEdit": true,
@@ -697,8 +705,16 @@
         ],
         "character_allowed_regex": [
             "可点击的选择框.png",
-            "林雅.png",
-            "络络.png"
+            "络络.png",
+            "狐妖美母苏墨璃.png",
+            "刘羽柔1.png",
+            "唐雨柔.png",
+            "和青梅竹马的恋爱长跑.png",
+            "柳施施.png",
+            "是悦悦不是锐锐.png",
+            "樱.png",
+            "白上吹雪.png",
+            "桐岛樱子.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -907,7 +923,7 @@
             "config": {
                 "setList": [
                     {
-                        "set": "场景感",
+                        "set": "色情选项",
                         "isVisible": true
                     }
                 ]
@@ -1118,7 +1134,8 @@
                 "ambient_current_time": 0,
                 "audio_cooldown": 0,
                 "enabled": true
-            }
+            },
+            "auto_enable_character_regex": true
         },
         "extension-zerxz-lib": {
             "HtmlInjector": {
@@ -1140,64 +1157,16 @@
         {
             "id": "1345561466591",
             "name": "ST Default",
-            "color": "rgba(108, 32, 32, 1)"
-        },
-        {
-            "id": "1353feca-ce15-41a1-8e51-9d2ee44346bd",
-            "name": "后宫",
-            "folder_type": "NONE",
-            "filter_state": "UNDEFINED",
-            "sort_order": null,
-            "color": "",
+            "color": "rgba(108, 32, 32, 1)",
             "color2": "",
-            "create_date": 1741505251092
-        },
-        {
-            "id": "780e7310-a8f9-49ce-9676-dc4117160963",
-            "name": "异世界",
-            "folder_type": "NONE",
-            "filter_state": "UNDEFINED",
-            "sort_order": null,
-            "color": "",
-            "color2": "",
-            "create_date": 1741505251092
-        },
-        {
-            "id": "c5b64c00-67be-4163-9954-3b12ee78d09d",
-            "name": "恶堕",
-            "folder_type": "NONE",
-            "filter_state": "UNDEFINED",
-            "sort_order": null,
-            "color": "",
-            "color2": "",
-            "create_date": 1741505251092
-        },
-        {
-            "id": "e723d2de-2e8e-46eb-a47c-da2d8ee4dc7b",
-            "name": "调教",
-            "folder_type": "NONE",
-            "filter_state": "UNDEFINED",
-            "sort_order": null,
-            "color": "",
-            "color2": "",
-            "create_date": 1741505251092
-        },
-        {
-            "id": "3c9fc9b8-9dad-452d-827d-bcc2b4780396",
-            "name": "催眠",
-            "folder_type": "NONE",
-            "filter_state": "UNDEFINED",
-            "sort_order": null,
-            "color": "",
-            "color2": "",
-            "create_date": 1741505251092
+            "sort_order": 15
         },
         {
             "id": "5dc6fcd9-9a49-4243-a9da-3090b6cf3a41",
             "name": "丝足",
             "folder_type": "NONE",
             "filter_state": "UNDEFINED",
-            "sort_order": null,
+            "sort_order": 6,
             "color": "",
             "color2": "",
             "create_date": 1741607159095
@@ -1207,7 +1176,7 @@
             "name": "姐弟",
             "folder_type": "NONE",
             "filter_state": "UNDEFINED",
-            "sort_order": null,
+            "sort_order": 7,
             "color": "",
             "color2": "",
             "create_date": 1741607159095
@@ -1217,7 +1186,7 @@
             "name": "痴女",
             "folder_type": "NONE",
             "filter_state": "UNDEFINED",
-            "sort_order": null,
+            "sort_order": 8,
             "color": "",
             "color2": "",
             "create_date": 1741607159095
@@ -1227,7 +1196,7 @@
             "name": "上瘾",
             "folder_type": "NONE",
             "filter_state": "UNDEFINED",
-            "sort_order": null,
+            "sort_order": 9,
             "color": "",
             "color2": "",
             "create_date": 1741607159095
@@ -1237,7 +1206,7 @@
             "name": "纯爱",
             "folder_type": "NONE",
             "filter_state": "UNDEFINED",
-            "sort_order": null,
+            "sort_order": 10,
             "color": "",
             "color2": "",
             "create_date": 1741607159095
@@ -1247,7 +1216,7 @@
             "name": "母子",
             "folder_type": "NONE",
             "filter_state": "UNDEFINED",
-            "sort_order": null,
+            "sort_order": 11,
             "color": "",
             "color2": "",
             "create_date": 1742312986807
@@ -1257,7 +1226,7 @@
             "name": "乱伦",
             "folder_type": "NONE",
             "filter_state": "UNDEFINED",
-            "sort_order": null,
+            "sort_order": 12,
             "color": "",
             "color2": "",
             "create_date": 1742312986807
@@ -1267,7 +1236,7 @@
             "name": "NTL",
             "folder_type": "NONE",
             "filter_state": "UNDEFINED",
-            "sort_order": null,
+            "sort_order": 13,
             "color": "",
             "color2": "",
             "create_date": 1742312986807
@@ -1277,10 +1246,30 @@
             "name": "NTR",
             "folder_type": "NONE",
             "filter_state": "UNDEFINED",
-            "sort_order": null,
+            "sort_order": 14,
             "color": "",
             "color2": "",
             "create_date": 1742312986807
+        },
+        {
+            "id": "d25ecd5e-c8e1-417e-b8fb-497308645699",
+            "name": "旧卡",
+            "folder_type": "OPEN",
+            "filter_state": "UNDEFINED",
+            "sort_order": 0,
+            "color": "",
+            "color2": "",
+            "create_date": 1742791548438
+        },
+        {
+            "id": "fa1e4f20-a931-441a-ac22-5287f1a4f147",
+            "name": "Vtuber",
+            "folder_type": "NONE",
+            "filter_state": "UNDEFINED",
+            "sort_order": 16,
+            "color": "",
+            "color2": "",
+            "create_date": 1742886179006
         }
     ],
     "tag_map": {
@@ -1289,34 +1278,18 @@
         ],
         "undefined": [],
         "可点击的选择框.png": [],
-        "空银子.png": [],
-        "霜影剑歌行.png": [],
-        "林雅.png": [
-            "5dc6fcd9-9a49-4243-a9da-3090b6cf3a41",
-            "177f2bce-9ede-4fe5-9202-9f13ce1b038e",
-            "9bad791a-c578-4d75-ae1b-9acfcd25a863",
-            "cbb8d01e-048f-4fb9-a157-f0e18f2774fb",
-            "4cd45506-4741-430c-8e23-c86509852cc3"
-        ],
-        "姐姐1.png": [],
-        "林暮雪.png": [],
-        "林小雨.png": [],
-        "永夜的公主.png": [],
         "络络.png": [],
         "樱.png": [],
-        "白姝颜.png": [],
-        "莉亚.png": [],
         "和青梅竹马的恋爱长跑.png": [],
-        "画师邻居想被调教!.png": [],
-        "林晓芸.png": [],
         "是悦悦不是锐锐.png": [],
         "柳施施.png": [],
-        "晓慧.png": [
-            "e08062ba-e1a8-458f-a6f3-b7c2d37970f7",
-            "4627d624-38e4-4a75-afb4-c3b1c95a3b02",
-            "8ccbd49d-9574-4172-867d-8ca4e21c90dc",
-            "30fdac42-95f0-4b95-bf1f-f595c98be9ce"
-        ]
+        "狐妖美母苏墨璃.png": [],
+        "唐雨柔.png": [],
+        "刘羽柔1.png": [],
+        "白上吹雪.png": [
+            "fa1e4f20-a931-441a-ac22-5287f1a4f147"
+        ],
+        "桐岛樱子.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -2560,11 +2533,11 @@
                     },
                     {
                         "identifier": "ca0d6abc-b6f6-4323-89c9-d9babd6d4e75",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "03e9c451-c02d-4ffc-982c-7c85579edfdd",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "2155ec73-aead-4d4e-9669-9155c4597ca5",
@@ -2584,11 +2557,11 @@
                     },
                     {
                         "identifier": "adb19c12-5774-47ef-88f4-23020764dd23",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "a4a9fcb2-ede5-41ff-95c7-ffc0fb25e128",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "8119f953-9daf-47e4-a695-86ee368738d4",
@@ -2640,7 +2613,7 @@
                     },
                     {
                         "identifier": "dbb10cac-0fe2-49ef-9164-c4c6be2b6680",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "25480225-8584-42b0-b79d-3fa2208c5f19",
@@ -2700,7 +2673,7 @@
                     },
                     {
                         "identifier": "ab5ddbba-0d4c-4ce9-9934-b04fadd2b86a",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "e24c16d9-4606-40f0-b3ab-aeaf460057c2",
@@ -2748,7 +2721,7 @@
                     },
                     {
                         "identifier": "0da82de5-2a11-4f2c-8b8f-1ea7c719863d",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "ff102aac-7d60-48e2-8368-6ed0b1538518",
