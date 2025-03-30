@@ -27,6 +27,7 @@
     },
     "currentVersion": "1.12.12",
     "username": "关一帆",
+    "active_character": "default_Seraphina.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -713,7 +714,8 @@
             "是悦悦不是锐锐.png",
             "樱.png",
             "白上吹雪.png",
-            "桐岛樱子.png"
+            "桐岛樱子.png",
+            "default_Seraphina.png"
         ],
         "tts": {
             "voiceMap": "",
