@@ -23,11 +23,12 @@
         "AlertWI_白上吹雪.png": "true",
         "AlertRegex_白上吹雪.png": "true",
         "AlertWI_桐岛樱子.png": "true",
-        "AlertRegex_桐岛樱子.png": "true"
+        "AlertRegex_桐岛樱子.png": "true",
+        "AlertWI_第一次带着漂亮女友回家但妹妹的眼神好像不太对劲？.png": "true"
     },
     "currentVersion": "1.12.12",
     "username": "关一帆",
-    "active_character": "柳施施.png",
+    "active_character": "第一次带着漂亮女友回家但妹妹的眼神好像不太对劲？.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -715,7 +716,8 @@
             "樱.png",
             "白上吹雪.png",
             "桐岛樱子.png",
-            "default_Seraphina.png"
+            "default_Seraphina.png",
+            "第一次带着漂亮女友回家但妹妹的眼神好像不太对劲？.png"
         ],
         "tts": {
             "voiceMap": "",
