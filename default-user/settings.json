@@ -943,7 +943,7 @@
             "isAiWriteTable": true,
             "isTableToChat": false,
             "enableHistory": true,
-            "use_main_api": false,
+            "use_main_api": true,
             "custom_temperature": 1,
             "custom_max_tokens": 2048,
             "custom_top_p": 1,
