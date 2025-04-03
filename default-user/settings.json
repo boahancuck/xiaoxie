@@ -1858,8 +1858,8 @@
         "n": 1
     },
     "background": {
-        "name": "landscape beach night.jpg",
-        "url": "url(\"backgrounds/landscape beach night.jpg\")",
+        "name": "landscape beach day.png",
+        "url": "url(\"backgrounds/landscape beach day.png\")",
         "fitting": "contain"
     },
     "proxies": [
