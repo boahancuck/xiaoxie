@@ -1623,6 +1623,18 @@
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
+            },
+            {
+                "identifier": "cb143f22-258e-4354-80de-4ee5fdf8b58f",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "123",
+                "role": "system",
+                "content": "123",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
             }
         ],
         "prompt_order": [
