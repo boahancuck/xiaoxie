@@ -1706,6 +1706,10 @@
                 "character_id": 100001,
                 "order": [
                     {
+                        "identifier": "cb143f22-258e-4354-80de-4ee5fdf8b58f",
+                        "enabled": false
+                    },
+                    {
                         "identifier": "main",
                         "enabled": true
                     },
