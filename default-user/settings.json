@@ -22,8 +22,6 @@
         "AlertWI_是悦悦不是锐锐.png": "true",
         "AlertWI_白上吹雪.png": "true",
         "AlertRegex_白上吹雪.png": "true",
-        "AlertWI_桐岛樱子.png": "true",
-        "AlertRegex_桐岛樱子.png": "true",
         "AlertWI_第一次带着漂亮女友回家但妹妹的眼神好像不太对劲？.png": "true",
         "AlertWI_月见璃.png": "true",
         "AlertRegex_月见璃.png": "true",
@@ -34,7 +32,7 @@
     },
     "currentVersion": "1.12.12",
     "username": "关一帆",
-    "active_character": "月见璃.png",
+    "active_character": "桐岛樱子.png",
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
     "user_avatar": "user-default.png",
@@ -740,7 +738,6 @@
             "是悦悦不是锐锐.png",
             "樱.png",
             "白上吹雪.png",
-            "桐岛樱子.png",
             "default_Seraphina.png",
             "第一次带着漂亮女友回家但妹妹的眼神好像不太对劲？.png",
             "月见璃.png",
@@ -1320,7 +1317,6 @@
         "白上吹雪.png": [
             "fa1e4f20-a931-441a-ac22-5287f1a4f147"
         ],
-        "桐岛樱子.png": [],
         "第一次带着漂亮女友回家但妹妹的眼神好像不太对劲？.png": [],
         "月见璃.png": [],
         "大小姐的日记本.png": [],
