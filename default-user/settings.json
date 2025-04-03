@@ -1858,8 +1858,8 @@
         "n": 1
     },
     "background": {
-        "name": "__transparent.png",
-        "url": "url(\"backgrounds/__transparent.png\")",
+        "name": "landscape beach night.jpg",
+        "url": "url(\"backgrounds/landscape beach night.jpg\")",
         "fitting": "contain"
     },
     "proxies": [
