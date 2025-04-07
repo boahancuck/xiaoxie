@@ -30,7 +30,7 @@
         "AlertWI_神埼凛月.png": "true",
         "AlertRegex_神埼凛月.png": "true"
     },
-    "currentVersion": "0.0.0",
+    "currentVersion": "1.12.12",
     "username": "关一帆",
     "active_character": "刘羽柔1.png",
     "api_server": "http://127.0.0.1:5000/api",
