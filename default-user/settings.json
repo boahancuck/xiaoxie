@@ -674,23 +674,6 @@
                 "maxDepth": null
             },
             {
-                "id": "f1f4f60c-e4e6-4c2c-bd1b-4b1698a49a06",
-                "scriptName": "mygo去除拉丁语系外语",
-                "findRegex": "/(?<=[， 。,“” …❤️！!：:？?¿'\\u4e00-\\u9fff])(([a-zA-Z\\u00C0-\\u00FF\\u0100-\\u017F\\u0180-\\u024F\\u0250-\\u02AF\\u1EA0-\\u1EF9][\\u0300-\\u036F]*)+)(?=[，。 ,“” …❤️!！：:？?¿'\\u4e00-\\u9fff])/gusi",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": true,
-                "markdownOnly": false,
-                "promptOnly": false,
-                "runOnEdit": true,
-                "substituteRegex": 1,
-                "minDepth": null,
-                "maxDepth": null
-            },
-            {
                 "id": "c20ba049-3e0b-48b5-93fb-32c7eae49be1",
                 "scriptName": "去除非拉丁系外语",
                 "findRegex": "/[Ա-Ֆ\\u0370-\\u03FF\\u10A0-\\u10FF]+|[а-яёА-ЯЁ]+|[\\u1100-\\u11FF\\u3130-\\u318F\\uA960-\\uA97F\\uAC00-\\uD7A3\\uD7B0-\\uD7FF]+|[\\u0900-\\u0DFF]+|\\*\\*|[\\u0600-\\u06FF]+|[\\u0E00-\\u0E7F]+|[\\u0590-\\u05FF]+/gsi",
@@ -704,6 +687,23 @@
                 "promptOnly": false,
                 "runOnEdit": true,
                 "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
+            },
+            {
+                "id": "f1f4f60c-e4e6-4c2c-bd1b-4b1698a49a06",
+                "scriptName": "mygo去除拉丁语系外语",
+                "findRegex": "/(?<=[， 。,“” …❤️！!：:？?¿'\\u4e00-\\u9fff])(([a-zA-Z\\u00C0-\\u00FF\\u0100-\\u017F\\u0180-\\u024F\\u0250-\\u02AF\\u1EA0-\\u1EF9][\\u0300-\\u036F]*)+)(?=[，。 ,“” …❤️!！：:？?¿'\\u4e00-\\u9fff])/gusi",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": true,
+                "markdownOnly": false,
+                "promptOnly": false,
+                "runOnEdit": true,
+                "substituteRegex": 1,
                 "minDepth": null,
                 "maxDepth": null
             },
