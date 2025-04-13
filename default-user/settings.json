@@ -1,7 +1,7 @@
 {
     "firstRun": false,
     "accountStorage": {
-        "SelectedNavTab": "rm_button_characters",
+        "SelectedNavTab": "rm_button_selected_ch",
         "NavOpened": "true",
         "AlertWI_可点击的选择框.png": "true",
         "StoryStringValidationCache": "{\"hashCache\":{\"7241261575272609\":{\"fieldsWarned\":{}}}}",
