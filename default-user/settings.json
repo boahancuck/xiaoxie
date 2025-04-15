@@ -2326,6 +2326,18 @@
                 "injection_position": 0,
                 "injection_depth": 4,
                 "forbid_overrides": false
+            },
+            {
+                "identifier": "7ce2605b-63e6-482a-a94c-411f3629aff7",
+                "system_prompt": false,
+                "enabled": false,
+                "marker": false,
+                "name": "asd",
+                "role": "system",
+                "content": "asd",
+                "injection_position": 0,
+                "injection_depth": 4,
+                "forbid_overrides": false
             }
         ],
         "prompt_order": [
