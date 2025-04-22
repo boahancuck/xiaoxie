@@ -988,7 +988,10 @@
         "hypebot": {},
         "vectors": {},
         "variables": {
-            "global": {}
+            "global": {
+                "LAST_RECEIVE_TOKENS": 528,
+                "LAST_RECEIVE_CHARS": 725
+            }
         },
         "attachments": [],
         "character_attachments": {
