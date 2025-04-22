@@ -32,11 +32,13 @@
         "AlertWI_林清澜.png": "true",
         "AlertRegex_林清澜.png": "true",
         "AlertWI_在水一方.png": "true",
-        "AlertRegex_在水一方.png": "true"
+        "AlertRegex_在水一方.png": "true",
+        "AlertWI_星月.png": "true",
+        "AlertRegex_星月.png": "true"
     },
     "currentVersion": "1.12.13",
     "username": "关一帆",
-    "active_character": "在水一方.png",
+    "active_character": "星月.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -989,8 +991,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 528,
-                "LAST_RECEIVE_CHARS": 725
+                "LAST_RECEIVE_TOKENS": 1057,
+                "LAST_RECEIVE_CHARS": 1368
             }
         },
         "attachments": [],
