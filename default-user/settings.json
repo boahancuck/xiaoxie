@@ -37,12 +37,12 @@
         "AlertRegex_星月.png": "true"
     },
     "currentVersion": "1.12.13",
-    "username": "关一帆",
+    "username": "谢三叁",
     "active_character": "星月.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
-    "user_avatar": "user-default.png",
+    "user_avatar": "1745332165082-.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
@@ -379,7 +379,7 @@
                 "lorebook": ""
             }
         },
-        "persona_description": "身长八尺，容貌甚伟。清纯的大男孩。",
+        "persona_description": "",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -1001,7 +1001,7 @@
         "variables": {
             "global": {
                 "LAST_RECEIVE_TOKENS": 4177,
-                "LAST_RECEIVE_CHARS": 8942
+                "LAST_RECEIVE_CHARS": 8945
             }
         },
         "attachments": [],
