@@ -372,14 +372,14 @@
                 "position": 0
             },
             "1745332165082-.png": {
-                "description": "{{}}",
+                "description": "{{user}}是",
                 "position": 0,
                 "depth": 2,
                 "role": 0,
                 "lorebook": ""
             }
         },
-        "persona_description": "{{}}",
+        "persona_description": "{{user}}是",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
