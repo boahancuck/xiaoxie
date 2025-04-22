@@ -362,13 +362,21 @@
             "max_additions": 1
         },
         "personas": {
-            "user-default.png": "关一帆"
+            "user-default.png": "关一帆",
+            "1745332165082-.png": "谢三叁"
         },
         "default_persona": null,
         "persona_descriptions": {
             "user-default.png": {
                 "description": "身长八尺，容貌甚伟。清纯的大男孩。",
                 "position": 0
+            },
+            "1745332165082-.png": {
+                "description": "",
+                "position": 0,
+                "depth": 2,
+                "role": 0,
+                "lorebook": ""
             }
         },
         "persona_description": "身长八尺，容貌甚伟。清纯的大男孩。",
