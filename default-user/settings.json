@@ -372,14 +372,14 @@
                 "position": 0
             },
             "1745332165082-.png": {
-                "description": "{{user}}是一名隐藏的绝世高手，天下无敌，",
+                "description": "{{user}}是一名隐藏的绝世高手，天下无敌，身长八尺，相貌堂堂，",
                 "position": 0,
                 "depth": 2,
                 "role": 0,
                 "lorebook": ""
             }
         },
-        "persona_description": "{{user}}是一名隐藏的绝世高手，天下无敌，",
+        "persona_description": "{{user}}是一名隐藏的绝世高手，天下无敌，身长八尺，相貌堂堂，",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
