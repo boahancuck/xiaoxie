@@ -1242,6 +1242,21 @@
                 "saveTopPosition": "",
                 "hiddenEdgeControls": true
             }
+        },
+        "EjsTemplate": {
+            "enabled": true,
+            "generate_enabled": true,
+            "generate_loader_enabled": true,
+            "render_enabled": true,
+            "render_loader_enabled": true,
+            "strict_enabled": false,
+            "debug_enabled": false,
+            "autosave_enabled": true,
+            "preload_worldinfo_enabled": true,
+            "code_blocks_enabled": false,
+            "world_active_enabled": true,
+            "permanent_evaluation_enabled": false,
+            "filter_message_enabled": true
         }
     },
     "tags": [
