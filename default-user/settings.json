@@ -803,7 +803,8 @@
             "大小姐的日记本.png",
             "神埼凛月.png",
             "林清澜.png",
-            "在水一方.png"
+            "在水一方.png",
+            "星月.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -991,8 +992,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 1057,
-                "LAST_RECEIVE_CHARS": 1368
+                "LAST_RECEIVE_TOKENS": 4177,
+                "LAST_RECEIVE_CHARS": 8942
             }
         },
         "attachments": [],
