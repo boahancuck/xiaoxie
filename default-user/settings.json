@@ -1019,10 +1019,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 36,
-                "LAST_RECEIVE_CHARS": 46,
-                "LAST_SEND_TOKENS": 14714,
-                "LAST_SEND_CHARS": 27051
+                "LAST_RECEIVE_TOKENS": 93,
+                "LAST_RECEIVE_CHARS": 166,
+                "LAST_SEND_TOKENS": 15963,
+                "LAST_SEND_CHARS": 28938
             }
         },
         "attachments": [],
