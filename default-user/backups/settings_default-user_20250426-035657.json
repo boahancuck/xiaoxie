@@ -30,14 +30,19 @@
         "AlertWI_神埼凛月.png": "true",
         "AlertRegex_神埼凛月.png": "true",
         "AlertWI_林清澜.png": "true",
-        "AlertRegex_林清澜.png": "true"
+        "AlertRegex_林清澜.png": "true",
+        "AlertWI_在水一方.png": "true",
+        "AlertRegex_在水一方.png": "true",
+        "AlertWI_星月.png": "true",
+        "AlertRegex_星月.png": "true"
     },
     "currentVersion": "1.12.12",
-    "username": "关一帆",
-    "active_character": "第一次带着漂亮女友回家但妹妹的眼神好像不太对劲？.png",
+    "username": "谢三",
+    "active_character": "星月.png",
+    "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
-    "user_avatar": "user-default.png",
+    "user_avatar": "1745332165082-.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
@@ -357,16 +362,24 @@
             "max_additions": 1
         },
         "personas": {
-            "user-default.png": "关一帆"
+            "user-default.png": "关一帆",
+            "1745332165082-.png": "谢三"
         },
         "default_persona": null,
         "persona_descriptions": {
             "user-default.png": {
                 "description": "身长八尺，容貌甚伟。清纯的大男孩。",
                 "position": 0
+            },
+            "1745332165082-.png": {
+                "description": "{{user}}是一名隐藏的绝世高手，天下无敌，身长八尺，相貌堂堂，有十二柄小巧飞剑护身。十二柄飞剑分别名为玄甲、青梅、竹马、朝露、春水、桃花、蛾眉、朱雀、黄桐、蚍蜉、金缕和太阿‌",
+                "position": 0,
+                "depth": 2,
+                "role": 0,
+                "lorebook": ""
             }
         },
-        "persona_description": "身长八尺，容貌甚伟。清纯的大男孩。",
+        "persona_description": "{{user}}是一名隐藏的绝世高手，天下无敌，身长八尺，相貌堂堂，有十二柄小巧飞剑护身。十二柄飞剑分别名为玄甲、青梅、竹马、朝露、春水、桃花、蛾眉、朱雀、黄桐、蚍蜉、金缕和太阿‌",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -499,7 +512,8 @@
             "showDefault": false,
             "api": 1,
             "llmPrompt": "Ignore previous instructions. Classify the emotion of the last message. Output just one word, e.g. \"joy\" or \"anger\". Choose only one of the following labels: {{labels}}",
-            "custom": []
+            "custom": [],
+            "allowMultiple": true
         },
         "connectionManager": {
             "selectedProfile": "",
@@ -796,7 +810,9 @@
             "月见璃.png",
             "大小姐的日记本.png",
             "神埼凛月.png",
-            "林清澜.png"
+            "林清澜.png",
+            "在水一方.png",
+            "星月.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -983,13 +999,22 @@
         "hypebot": {},
         "vectors": {},
         "variables": {
-            "global": {}
+            "global": {
+                "LAST_RECEIVE_TOKENS": 4734,
+                "LAST_RECEIVE_CHARS": 9872,
+                "LAST_SEND_TOKENS": 15127,
+                "LAST_SEND_CHARS": 27311
+            }
         },
         "attachments": [],
         "character_attachments": {
             "霜影剑歌行.png": []
         },
         "disabled_attachments": [],
+        "gallery": {
+            "folders": {},
+            "sort": "dateAsc"
+        },
         "cfg": {
             "global": {
                 "guidance_scale": 1,
@@ -1233,6 +1258,21 @@
                 "saveTopPosition": "",
                 "hiddenEdgeControls": true
             }
+        },
+        "EjsTemplate": {
+            "enabled": true,
+            "generate_enabled": true,
+            "generate_loader_enabled": true,
+            "render_enabled": true,
+            "render_loader_enabled": true,
+            "strict_enabled": false,
+            "debug_enabled": false,
+            "autosave_enabled": true,
+            "preload_worldinfo_enabled": true,
+            "code_blocks_enabled": false,
+            "world_active_enabled": true,
+            "permanent_evaluation_enabled": false,
+            "filter_message_enabled": true
         }
     },
     "tags": [
@@ -1375,7 +1415,11 @@
         "月见璃.png": [],
         "大小姐的日记本.png": [],
         "神埼凛月.png": [],
-        "林清澜.png": []
+        "林清澜.png": [],
+        "null": [],
+        "莉拉.png": [],
+        "星月.png": [],
+        "在水一方.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -2664,8 +2708,8 @@
         "zerooneai_model": "yi-large",
         "blockentropy_model": "be-70b-base-llama3.1",
         "deepseek_model": "deepseek-reasoner",
-        "custom_model": "gemini-2.0-pro-exp-02-05",
-        "custom_url": "https://xiaoxie10162-ly.hf.space/v1",
+        "custom_model": "gemini-2.5-pro-exp-03-25",
+        "custom_url": "https://vklxplmuyrby.us-east-1.clawcloudrun.com/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
         "custom_include_headers": "",
