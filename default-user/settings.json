@@ -36,7 +36,7 @@
         "AlertWI_星月.png": "true",
         "AlertRegex_星月.png": "true"
     },
-    "currentVersion": "1.12.13",
+    "currentVersion": "1.12.12",
     "username": "谢三",
     "active_character": "星月.png",
     "active_group": null,
@@ -2740,6 +2740,7 @@
         "openrouter_providers": [],
         "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "on",
+        "jailbreak_system": false,
         "reverse_proxy": "",
         "chat_completion_source": "custom",
         "max_context_unlocked": true,
@@ -2762,8 +2763,6 @@
         "custom_prompt_post_processing": "strict",
         "show_thoughts": false,
         "reasoning_effort": "medium",
-        "enable_web_search": false,
-        "request_images": false,
         "seed": -1,
         "n": 1
     },
