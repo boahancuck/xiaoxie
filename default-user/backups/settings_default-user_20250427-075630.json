@@ -36,7 +36,7 @@
         "AlertWI_星月.png": "true",
         "AlertRegex_星月.png": "true"
     },
-    "currentVersion": "1.12.13",
+    "currentVersion": "1.12.12",
     "username": "谢三",
     "active_character": "星月.png",
     "active_group": null,
@@ -1000,10 +1000,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 4638,
-                "LAST_RECEIVE_CHARS": 9799,
-                "LAST_SEND_TOKENS": 18461,
-                "LAST_SEND_CHARS": 32881
+                "LAST_RECEIVE_TOKENS": 43,
+                "LAST_RECEIVE_CHARS": 53,
+                "LAST_SEND_TOKENS": 28495,
+                "LAST_SEND_CHARS": 46592
             }
         },
         "attachments": [],
@@ -2708,7 +2708,7 @@
         "zerooneai_model": "yi-large",
         "blockentropy_model": "be-70b-base-llama3.1",
         "deepseek_model": "deepseek-reasoner",
-        "custom_model": "gemini-2.5-flash-preview-04-17-search",
+        "custom_model": "gemini-2.5-pro-exp-03-25",
         "custom_url": "https://vklxplmuyrby.us-east-1.clawcloudrun.com/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
@@ -2721,6 +2721,7 @@
         "openrouter_providers": [],
         "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "on",
+        "jailbreak_system": false,
         "reverse_proxy": "",
         "chat_completion_source": "custom",
         "max_context_unlocked": true,
@@ -2743,8 +2744,6 @@
         "custom_prompt_post_processing": "strict",
         "show_thoughts": false,
         "reasoning_effort": "medium",
-        "enable_web_search": false,
-        "request_images": false,
         "seed": -1,
         "n": 1
     },
