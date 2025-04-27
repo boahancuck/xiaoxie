@@ -30,15 +30,19 @@
         "AlertWI_神埼凛月.png": "true",
         "AlertRegex_神埼凛月.png": "true",
         "AlertWI_林清澜.png": "true",
-        "AlertRegex_林清澜.png": "true"
+        "AlertRegex_林清澜.png": "true",
+        "AlertWI_在水一方.png": "true",
+        "AlertRegex_在水一方.png": "true",
+        "AlertWI_星月.png": "true",
+        "AlertRegex_星月.png": "true"
     },
-    "currentVersion": "1.12.13",
-    "username": "关一帆",
-    "active_character": "大小姐的日记本.png",
+    "currentVersion": "1.12.12",
+    "username": "谢三",
+    "active_character": "星月.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
-    "user_avatar": "user-default.png",
+    "user_avatar": "1745332165082-.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
@@ -358,16 +362,24 @@
             "max_additions": 1
         },
         "personas": {
-            "user-default.png": "关一帆"
+            "user-default.png": "关一帆",
+            "1745332165082-.png": "谢三"
         },
         "default_persona": null,
         "persona_descriptions": {
             "user-default.png": {
                 "description": "身长八尺，容貌甚伟。清纯的大男孩。",
                 "position": 0
+            },
+            "1745332165082-.png": {
+                "description": "{{user}}是一名隐藏的绝世高手，天下无敌，身长八尺，相貌堂堂，有十二柄小巧飞剑护身。十二柄飞剑分别名为玄甲、青梅、竹马、朝露、春水、桃花、蛾眉、朱雀、黄桐、蚍蜉、金缕和太阿‌",
+                "position": 0,
+                "depth": 2,
+                "role": 0,
+                "lorebook": ""
             }
         },
-        "persona_description": "身长八尺，容貌甚伟。清纯的大男孩。",
+        "persona_description": "{{user}}是一名隐藏的绝世高手，天下无敌，身长八尺，相貌堂堂，有十二柄小巧飞剑护身。十二柄飞剑分别名为玄甲、青梅、竹马、朝露、春水、桃花、蛾眉、朱雀、黄桐、蚍蜉、金缕和太阿‌",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -798,7 +810,9 @@
             "月见璃.png",
             "大小姐的日记本.png",
             "神埼凛月.png",
-            "林清澜.png"
+            "林清澜.png",
+            "在水一方.png",
+            "星月.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -985,7 +999,12 @@
         "hypebot": {},
         "vectors": {},
         "variables": {
-            "global": {}
+            "global": {
+                "LAST_RECEIVE_TOKENS": 4901,
+                "LAST_RECEIVE_CHARS": 10191,
+                "LAST_SEND_TOKENS": 16694,
+                "LAST_SEND_CHARS": 29589
+            }
         },
         "attachments": [],
         "character_attachments": {
@@ -1239,6 +1258,21 @@
                 "saveTopPosition": "",
                 "hiddenEdgeControls": true
             }
+        },
+        "EjsTemplate": {
+            "enabled": true,
+            "generate_enabled": true,
+            "generate_loader_enabled": true,
+            "render_enabled": true,
+            "render_loader_enabled": true,
+            "strict_enabled": false,
+            "debug_enabled": false,
+            "autosave_enabled": true,
+            "preload_worldinfo_enabled": true,
+            "code_blocks_enabled": false,
+            "world_active_enabled": true,
+            "permanent_evaluation_enabled": false,
+            "filter_message_enabled": true
         }
     },
     "tags": [
@@ -1382,7 +1416,10 @@
         "大小姐的日记本.png": [],
         "神埼凛月.png": [],
         "林清澜.png": [],
-        "null": []
+        "null": [],
+        "莉拉.png": [],
+        "星月.png": [],
+        "在水一方.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -2671,7 +2708,7 @@
         "zerooneai_model": "yi-large",
         "blockentropy_model": "be-70b-base-llama3.1",
         "deepseek_model": "deepseek-reasoner",
-        "custom_model": "gemini-2.5-flash-preview-04-17-search",
+        "custom_model": "gemini-2.5-pro-exp-03-25",
         "custom_url": "https://vklxplmuyrby.us-east-1.clawcloudrun.com/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
@@ -2684,6 +2721,7 @@
         "openrouter_providers": [],
         "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "on",
+        "jailbreak_system": false,
         "reverse_proxy": "",
         "chat_completion_source": "custom",
         "max_context_unlocked": true,
@@ -2706,8 +2744,6 @@
         "custom_prompt_post_processing": "strict",
         "show_thoughts": false,
         "reasoning_effort": "medium",
-        "enable_web_search": false,
-        "request_images": false,
         "seed": -1,
         "n": 1
     },
