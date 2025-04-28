@@ -36,7 +36,7 @@
         "AlertWI_星月.png": "true",
         "AlertRegex_星月.png": "true"
     },
-    "currentVersion": "1.12.13",
+    "currentVersion": "1.12.12",
     "username": "谢三",
     "active_character": "星月.png",
     "active_group": null,
@@ -792,6 +792,25 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
+            },
+            {
+                "id": "a8ff1bc7-15f2-4122-b43b-ded692560538",
+                "scriptName": "Prompt Template Filter",
+                "findRegex": "/<%(?![%])([\\s\\S]*?)(?<!%)%>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2,
+                    6
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": false,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
@@ -1000,10 +1019,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 4945,
-                "LAST_RECEIVE_CHARS": 10231,
-                "LAST_SEND_TOKENS": 26544,
-                "LAST_SEND_CHARS": 44861
+                "LAST_RECEIVE_TOKENS": 4176,
+                "LAST_RECEIVE_CHARS": 8944,
+                "LAST_SEND_TOKENS": 34122,
+                "LAST_SEND_CHARS": 54561
             }
         },
         "attachments": [],
@@ -1217,33 +1236,6 @@
             "updateIndex": 3
         },
         "IMPORTANT_USER_PRIVACY_DATA": {},
-        "JS-Slash-Runner": {
-            "activate_setting": true,
-            "render": {
-                "auto_enable_character_regex": true,
-                "auto_disable_incompatible_options": true,
-                "tampermonkey_compatibility": false,
-                "process_depth": 0
-            },
-            "audio": {
-                "audio_setting": true,
-                "bgm_enabled": true,
-                "ambient_enabled": true,
-                "bgm_mode": "repeat",
-                "bgm_muted": false,
-                "bgm_volume": 50,
-                "bgm_selected": null,
-                "bgm_current_time": 0,
-                "ambient_mode": "stop",
-                "ambient_muted": false,
-                "ambient_volume": 50,
-                "ambient_selected": null,
-                "ambient_current_time": 0,
-                "audio_cooldown": 0,
-                "enabled": true
-            },
-            "auto_enable_character_regex": true
-        },
         "extension-zerxz-lib": {
             "HtmlInjector": {
                 "lastMesTextContent": "",
@@ -1273,6 +1265,36 @@
             "world_active_enabled": true,
             "permanent_evaluation_enabled": false,
             "filter_message_enabled": true
+        },
+        "TavernHelper": {
+            "enabled_extension": true,
+            "render": {
+                "render_enabled": true,
+                "tampermonkey_compatibility": false,
+                "render_depth": 0,
+                "render_optimize": false
+            },
+            "script": {
+                "global_script_enabled": true,
+                "scriptsRepository": [],
+                "characters_with_scripts": []
+            },
+            "audio": {
+                "audio_enabled": true,
+                "bgm_enabled": true,
+                "ambient_enabled": true,
+                "bgm_mode": "repeat",
+                "bgm_muted": false,
+                "bgm_volume": 50,
+                "bgm_selected": null,
+                "bgm_current_time": 0,
+                "ambient_mode": "stop",
+                "ambient_muted": false,
+                "ambient_volume": 50,
+                "ambient_selected": null,
+                "ambient_current_time": 0,
+                "audio_cooldown": 0
+            }
         }
     },
     "tags": [
@@ -2708,7 +2730,7 @@
         "zerooneai_model": "yi-large",
         "blockentropy_model": "be-70b-base-llama3.1",
         "deepseek_model": "deepseek-reasoner",
-        "custom_model": "gemini-2.5-flash-preview-04-17-search",
+        "custom_model": "gemini-2.5-pro-exp-03-25",
         "custom_url": "https://vklxplmuyrby.us-east-1.clawcloudrun.com/v1",
         "custom_include_body": "",
         "custom_exclude_body": "",
@@ -2721,6 +2743,7 @@
         "openrouter_providers": [],
         "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "on",
+        "jailbreak_system": false,
         "reverse_proxy": "",
         "chat_completion_source": "custom",
         "max_context_unlocked": true,
@@ -2743,8 +2766,6 @@
         "custom_prompt_post_processing": "strict",
         "show_thoughts": false,
         "reasoning_effort": "medium",
-        "enable_web_search": false,
-        "request_images": false,
         "seed": -1,
         "n": 1
     },
