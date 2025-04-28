@@ -40,7 +40,7 @@
     },
     "currentVersion": "1.12.12",
     "username": "谢三",
-    "active_character": "星月.png",
+    "active_character": "琼明神女录.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1022,8 +1022,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 4176,
-                "LAST_RECEIVE_CHARS": 8944,
+                "LAST_RECEIVE_TOKENS": 11010,
+                "LAST_RECEIVE_CHARS": 27746,
                 "LAST_SEND_TOKENS": 37753,
                 "LAST_SEND_CHARS": 71698
             }
