@@ -1294,6 +1294,12 @@
                 "ambient_selected": null,
                 "ambient_current_time": 0,
                 "audio_cooldown": 0
+            },
+            "listener": {
+                "enabled": false,
+                "enable_echo": true,
+                "url": "http://localhost:6621",
+                "duration": 100
             }
         }
     },
