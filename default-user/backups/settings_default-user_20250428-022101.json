@@ -34,11 +34,13 @@
         "AlertWI_在水一方.png": "true",
         "AlertRegex_在水一方.png": "true",
         "AlertWI_星月.png": "true",
-        "AlertRegex_星月.png": "true"
+        "AlertRegex_星月.png": "true",
+        "AlertWI_琼明神女录.png": "true",
+        "AlertRegex_琼明神女录.png": "true"
     },
-    "currentVersion": "1.12.13",
+    "currentVersion": "1.12.12",
     "username": "谢三",
-    "active_character": "星月.png",
+    "active_character": "琼明神女录.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -271,7 +273,7 @@
         "movingUIState": {},
         "movingUIPreset": "Default",
         "noShadows": true,
-        "theme": "Dark Lite",
+        "theme": "透明UI 手機",
         "gestures": true,
         "auto_swipe": false,
         "auto_swipe_minimum_length": 0,
@@ -792,6 +794,25 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
+            },
+            {
+                "id": "a8ff1bc7-15f2-4122-b43b-ded692560538",
+                "scriptName": "Prompt Template Filter",
+                "findRegex": "/<%(?![%])([\\s\\S]*?)(?<!%)%>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2,
+                    6
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": false,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
@@ -812,7 +833,8 @@
             "神埼凛月.png",
             "林清澜.png",
             "在水一方.png",
-            "星月.png"
+            "星月.png",
+            "琼明神女录.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1000,10 +1022,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 4591,
-                "LAST_RECEIVE_CHARS": 9595,
-                "LAST_SEND_TOKENS": 29470,
-                "LAST_SEND_CHARS": 49030
+                "LAST_RECEIVE_TOKENS": 10126,
+                "LAST_RECEIVE_CHARS": 26653,
+                "LAST_SEND_TOKENS": 34122,
+                "LAST_SEND_CHARS": 54561
             }
         },
         "attachments": [],
@@ -1217,33 +1239,6 @@
             "updateIndex": 3
         },
         "IMPORTANT_USER_PRIVACY_DATA": {},
-        "JS-Slash-Runner": {
-            "activate_setting": true,
-            "render": {
-                "auto_enable_character_regex": true,
-                "auto_disable_incompatible_options": true,
-                "tampermonkey_compatibility": false,
-                "process_depth": 0
-            },
-            "audio": {
-                "audio_setting": true,
-                "bgm_enabled": true,
-                "ambient_enabled": true,
-                "bgm_mode": "repeat",
-                "bgm_muted": false,
-                "bgm_volume": 50,
-                "bgm_selected": null,
-                "bgm_current_time": 0,
-                "ambient_mode": "stop",
-                "ambient_muted": false,
-                "ambient_volume": 50,
-                "ambient_selected": null,
-                "ambient_current_time": 0,
-                "audio_cooldown": 0,
-                "enabled": true
-            },
-            "auto_enable_character_regex": true
-        },
         "extension-zerxz-lib": {
             "HtmlInjector": {
                 "lastMesTextContent": "",
@@ -1273,6 +1268,42 @@
             "world_active_enabled": true,
             "permanent_evaluation_enabled": false,
             "filter_message_enabled": true
+        },
+        "TavernHelper": {
+            "enabled_extension": true,
+            "render": {
+                "render_enabled": true,
+                "tampermonkey_compatibility": false,
+                "render_depth": 0,
+                "render_optimize": false
+            },
+            "script": {
+                "global_script_enabled": true,
+                "scriptsRepository": [],
+                "characters_with_scripts": []
+            },
+            "audio": {
+                "audio_enabled": true,
+                "bgm_enabled": true,
+                "ambient_enabled": true,
+                "bgm_mode": "repeat",
+                "bgm_muted": false,
+                "bgm_volume": 50,
+                "bgm_selected": null,
+                "bgm_current_time": 0,
+                "ambient_mode": "stop",
+                "ambient_muted": false,
+                "ambient_volume": 50,
+                "ambient_selected": null,
+                "ambient_current_time": 0,
+                "audio_cooldown": 0
+            },
+            "listener": {
+                "enabled": false,
+                "enable_echo": true,
+                "url": "http://localhost:6621",
+                "duration": 100
+            }
         }
     },
     "tags": [
@@ -1419,7 +1450,8 @@
         "null": [],
         "莉拉.png": [],
         "星月.png": [],
-        "在水一方.png": []
+        "在水一方.png": [],
+        "琼明神女录.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
@@ -2515,11 +2547,11 @@
                     },
                     {
                         "identifier": "a74a562e-5866-4424-8614-846e244cfcde",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "4e8814a2-0363-4b98-8a59-f933f005d06d",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "b6dce6b1-3af6-4bec-aefe-d454b2c46143",
@@ -2595,7 +2627,7 @@
                     },
                     {
                         "identifier": "51e5fe9a-2c44-4d91-acca-f18f63fe77eb",
-                        "enabled": true
+                        "enabled": false
                     },
                     {
                         "identifier": "b2ae48c2-f4d6-405e-864e-a74f9243c5a2",
@@ -2721,6 +2753,7 @@
         "openrouter_providers": [],
         "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "on",
+        "jailbreak_system": false,
         "reverse_proxy": "",
         "chat_completion_source": "custom",
         "max_context_unlocked": true,
@@ -2743,8 +2776,6 @@
         "custom_prompt_post_processing": "strict",
         "show_thoughts": false,
         "reasoning_effort": "medium",
-        "enable_web_search": false,
-        "request_images": false,
         "seed": -1,
         "n": 1
     },
