@@ -1236,33 +1236,6 @@
             "updateIndex": 3
         },
         "IMPORTANT_USER_PRIVACY_DATA": {},
-        "JS-Slash-Runner": {
-            "activate_setting": true,
-            "render": {
-                "auto_enable_character_regex": true,
-                "auto_disable_incompatible_options": true,
-                "tampermonkey_compatibility": false,
-                "process_depth": 0
-            },
-            "audio": {
-                "audio_setting": true,
-                "bgm_enabled": true,
-                "ambient_enabled": true,
-                "bgm_mode": "repeat",
-                "bgm_muted": false,
-                "bgm_volume": 50,
-                "bgm_selected": null,
-                "bgm_current_time": 0,
-                "ambient_mode": "stop",
-                "ambient_muted": false,
-                "ambient_volume": 50,
-                "ambient_selected": null,
-                "ambient_current_time": 0,
-                "audio_cooldown": 0,
-                "enabled": true
-            },
-            "auto_enable_character_regex": true
-        },
         "extension-zerxz-lib": {
             "HtmlInjector": {
                 "lastMesTextContent": "",
@@ -1292,6 +1265,36 @@
             "world_active_enabled": true,
             "permanent_evaluation_enabled": false,
             "filter_message_enabled": true
+        },
+        "TavernHelper": {
+            "enabled_extension": true,
+            "render": {
+                "render_enabled": true,
+                "tampermonkey_compatibility": false,
+                "render_depth": 0,
+                "render_optimize": false
+            },
+            "script": {
+                "global_script_enabled": true,
+                "scriptsRepository": [],
+                "characters_with_scripts": []
+            },
+            "audio": {
+                "audio_enabled": true,
+                "bgm_enabled": true,
+                "ambient_enabled": true,
+                "bgm_mode": "repeat",
+                "bgm_muted": false,
+                "bgm_volume": 50,
+                "bgm_selected": null,
+                "bgm_current_time": 0,
+                "ambient_mode": "stop",
+                "ambient_muted": false,
+                "ambient_volume": 50,
+                "ambient_selected": null,
+                "ambient_current_time": 0,
+                "audio_cooldown": 0
+            }
         }
     },
     "tags": [
