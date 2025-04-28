@@ -34,11 +34,13 @@
         "AlertWI_在水一方.png": "true",
         "AlertRegex_在水一方.png": "true",
         "AlertWI_星月.png": "true",
-        "AlertRegex_星月.png": "true"
+        "AlertRegex_星月.png": "true",
+        "AlertWI_琼明神女录.png": "true",
+        "AlertRegex_琼明神女录.png": "true"
     },
     "currentVersion": "1.12.12",
     "username": "谢三",
-    "active_character": "星月.png",
+    "active_character": "琼明神女录.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -831,7 +833,8 @@
             "神埼凛月.png",
             "林清澜.png",
             "在水一方.png",
-            "星月.png"
+            "星月.png",
+            "琼明神女录.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1019,8 +1022,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 4176,
-                "LAST_RECEIVE_CHARS": 8944,
+                "LAST_RECEIVE_TOKENS": 1539,
+                "LAST_RECEIVE_CHARS": 3080,
                 "LAST_SEND_TOKENS": 34122,
                 "LAST_SEND_CHARS": 54561
             }
@@ -1447,7 +1450,8 @@
         "null": [],
         "莉拉.png": [],
         "星月.png": [],
-        "在水一方.png": []
+        "在水一方.png": [],
+        "琼明神女录.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
