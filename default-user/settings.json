@@ -36,15 +36,16 @@
         "AlertWI_星月.png": "true",
         "AlertRegex_星月.png": "true",
         "AlertWI_琼明神女录.png": "true",
-        "AlertRegex_琼明神女录.png": "true"
+        "AlertRegex_琼明神女录.png": "true",
+        "AlertWI_姐姐.png": "true"
     },
     "currentVersion": "1.12.12",
-    "username": "谢三",
-    "active_character": "琼明神女录.png",
+    "username": "关一帆",
+    "active_character": "姐姐.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
-    "user_avatar": "1745332165082-.png",
+    "user_avatar": "user-default.png",
     "amount_gen": 350,
     "max_context": 8192,
     "main_api": "openai",
@@ -381,7 +382,7 @@
                 "lorebook": ""
             }
         },
-        "persona_description": "{{user}}是一名隐藏的绝世高手，天下无敌，身长八尺，相貌堂堂，腰间常挎着一柄古朴木剑。身藏十二柄奇异飞剑。。十二柄飞剑分别名为玄甲、青梅、竹马、朝露、春水、桃花、蛾眉、朱雀、黄桐、蚍蜉、金缕和太阿‌。",
+        "persona_description": "身长八尺，容貌甚伟。清纯的大男孩。",
         "persona_description_position": 0,
         "persona_description_role": 0,
         "persona_description_depth": 2,
@@ -1003,8 +1004,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 10594,
-                "LAST_RECEIVE_CHARS": 27278,
+                "LAST_RECEIVE_TOKENS": 1109,
+                "LAST_RECEIVE_CHARS": 1555,
                 "LAST_SEND_TOKENS": 41248,
                 "LAST_SEND_CHARS": 75510
             }
@@ -1432,7 +1433,10 @@
         "莉拉.png": [],
         "星月.png": [],
         "在水一方.png": [],
-        "琼明神女录.png": []
+        "琼明神女录.png": [],
+        "顾汐.png": [],
+        "姐姐.png": [],
+        "你&世界.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
