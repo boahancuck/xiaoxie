@@ -1025,8 +1025,8 @@
             "global": {
                 "LAST_RECEIVE_TOKENS": 12,
                 "LAST_RECEIVE_CHARS": 14,
-                "LAST_SEND_TOKENS": 41248,
-                "LAST_SEND_CHARS": 75510
+                "LAST_SEND_TOKENS": 6276,
+                "LAST_SEND_CHARS": 10629
             }
         },
         "attachments": [],
@@ -2784,8 +2784,8 @@
         "n": 1
     },
     "background": {
-        "name": "landscape beach day.png",
-        "url": "url(\"backgrounds/landscape beach day.png\")",
+        "name": "_black.jpg",
+        "url": "url(\"backgrounds/_black.jpg\")",
         "fitting": "contain"
     },
     "proxies": [
