@@ -37,11 +37,13 @@
         "AlertRegex_星月.png": "true",
         "AlertWI_琼明神女录.png": "true",
         "AlertRegex_琼明神女录.png": "true",
-        "AlertWI_姐姐.png": "true"
+        "AlertWI_姐姐.png": "true",
+        "AlertWI_顾汐.png": "true",
+        "AlertRegex_顾汐.png": "true"
     },
     "currentVersion": "1.12.12",
     "username": "关一帆",
-    "active_character": "姐姐.png",
+    "active_character": "顾汐.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -816,7 +818,8 @@
             "林清澜.png",
             "在水一方.png",
             "星月.png",
-            "琼明神女录.png"
+            "琼明神女录.png",
+            "顾汐.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1004,8 +1007,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 1312,
-                "LAST_RECEIVE_CHARS": 1704,
+                "LAST_RECEIVE_TOKENS": 503,
+                "LAST_RECEIVE_CHARS": 965,
                 "LAST_SEND_TOKENS": 10410,
                 "LAST_SEND_CHARS": 16424
             }
