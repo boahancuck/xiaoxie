@@ -376,7 +376,8 @@
         },
         "personas": {
             "user-default.png": "关一帆",
-            "1745332165082-.png": "谢三"
+            "1745332165082-.png": "谢三",
+            "1750649494949-.png": "陈弦浼"
         },
         "default_persona": null,
         "persona_descriptions": {
@@ -386,6 +387,13 @@
             },
             "1745332165082-.png": {
                 "description": "{{user}}是一名隐藏的绝世高手，天下无敌，身长八尺，相貌堂堂，腰间常挎着一柄古朴木剑。身藏十二柄奇异飞剑。。十二柄飞剑分别名为玄甲、青梅、竹马、朝露、春水、桃花、蛾眉、朱雀、黄桐、蚍蜉、金缕和太阿‌。",
+                "position": 0,
+                "depth": 2,
+                "role": 0,
+                "lorebook": ""
+            },
+            "1750649494949-.png": {
+                "description": "",
                 "position": 0,
                 "depth": 2,
                 "role": 0,
