@@ -283,7 +283,7 @@
         "movingUIState": {},
         "movingUIPreset": "Default",
         "noShadows": true,
-        "theme": "夜间极简卡片",
+        "theme": "浅色简约卡片",
         "gestures": true,
         "auto_swipe": false,
         "auto_swipe_minimum_length": 0,
