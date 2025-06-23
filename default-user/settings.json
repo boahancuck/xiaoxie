@@ -1451,6 +1451,25 @@
                 "substituteRegex": 0,
                 "minDepth": null,
                 "maxDepth": null
+            },
+            {
+                "id": "cd4f33f0-b547-42ac-a9ae-00879274110d",
+                "scriptName": "上下文限制[5]",
+                "findRegex": "/[\\s\\S]*/gm",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2,
+                    6
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 5,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
@@ -1664,8 +1683,8 @@
             "global": {
                 "LAST_RECEIVE_TOKENS": 43,
                 "LAST_RECEIVE_CHARS": 53,
-                "LAST_SEND_TOKENS": 277659,
-                "LAST_SEND_CHARS": 411971
+                "LAST_SEND_TOKENS": 281331,
+                "LAST_SEND_CHARS": 416865
             }
         },
         "attachments": [],
