@@ -1373,6 +1373,23 @@
                 "maxDepth": 10
             },
             {
+                "id": "30649a11-f0d1-4d1f-959e-d83e32550ba3",
+                "scriptName": "小总结2",
+                "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    2
+                ],
+                "disabled": true,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": true,
+                "substituteRegex": 0,
+                "minDepth": 11,
+                "maxDepth": null
+            },
+            {
                 "id": "46395871-5ebb-4e33-bcdb-7d5f617760f3",
                 "scriptName": "K去除所有用户消息",
                 "findRegex": "^([\\s\\S]*)$",
@@ -1404,23 +1421,6 @@
                 "runOnEdit": true,
                 "substituteRegex": 1,
                 "minDepth": null,
-                "maxDepth": null
-            },
-            {
-                "id": "30649a11-f0d1-4d1f-959e-d83e32550ba3",
-                "scriptName": "小总结2",
-                "findRegex": "/([\\s\\S]*?<details>\\s*<summary>\\s*摘要\\s*<\\/summary>|<\\/details>[\\s\\S]*?$)/gs",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    2
-                ],
-                "disabled": true,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": true,
-                "substituteRegex": 0,
-                "minDepth": 11,
                 "maxDepth": null
             }
         ],
