@@ -443,7 +443,783 @@
             "forceHidden": [],
             "forceShown": []
         },
-        "wi_key_input_plaintext": true
+        "wi_key_input_plaintext": true,
+        "muyoo_dataTable": {
+            "updateIndex": 3,
+            "tableStructure": [
+                {
+                    "tableName": "时空表格",
+                    "tableIndex": 0,
+                    "columns": [
+                        "日期",
+                        "时间",
+                        "地点（当前描写）",
+                        "此地角色"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "enable": true,
+                    "Required": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "note": "记录时空信息的表格，应保持在一行",
+                    "initNode": "本轮需要记录当前时间、地点、人物信息，使用insertRow函数",
+                    "updateNode": "当描写的场景，时间，人物变更时",
+                    "deleteNode": "此表大于一行时应删除多余行"
+                },
+                {
+                    "tableName": "角色特征表格",
+                    "tableIndex": 1,
+                    "columns": [
+                        "角色名",
+                        "身体特征",
+                        "性格",
+                        "职业",
+                        "爱好",
+                        "喜欢的事物（作品、虚拟人物、物品等）",
+                        "住所",
+                        "其他重要信息"
+                    ],
+                    "enable": true,
+                    "Required": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7
+                    ],
+                    "note": "角色天生或不易改变的特征csv表格，思考本轮有否有其中的角色，他应作出什么反应",
+                    "initNode": "本轮必须从上文寻找已知的所有角色使用insertRow插入，角色名不能为空",
+                    "insertNode": "当本轮出现表中没有的新角色时，应插入",
+                    "updateNode": "当角色的身体出现持久性变化时，例如伤痕/当角色有新的爱好，职业，喜欢的事物时/当角色更换住所时/当角色提到重要信息时",
+                    "deleteNode": ""
+                },
+                {
+                    "tableName": "角色与<user>社交表格",
+                    "tableIndex": 2,
+                    "columns": [
+                        "角色名",
+                        "对<user>关系",
+                        "对<user>态度",
+                        "对<user>好感"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "enable": true,
+                    "Required": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "note": "思考如果有角色和<user>互动，应什么态度",
+                    "initNode": "本轮必须从上文寻找已知的所有角色使用insertRow插入，角色名不能为空",
+                    "insertNode": "当本轮出现表中没有的新角色时，应插入",
+                    "updateNode": "当角色和<user>的交互不再符合原有的记录时/当角色和<user>的关系改变时",
+                    "deleteNode": ""
+                },
+                {
+                    "tableName": "任务、命令或者约定表格",
+                    "tableIndex": 3,
+                    "columns": [
+                        "角色",
+                        "任务",
+                        "地点",
+                        "持续时间"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "enable": true,
+                    "Required": false,
+                    "asStatus": true,
+                    "toChat": true,
+                    "note": "思考本轮是否应该执行任务/赴约",
+                    "insertNode": "当特定时间约定一起去做某事时/某角色收到做某事的命令或任务时",
+                    "updateNode": "",
+                    "deleteNode": "当大家赴约时/任务或命令完成时/任务，命令或约定被取消时"
+                },
+                {
+                    "tableName": "重要事件历史表格",
+                    "tableIndex": 4,
+                    "columns": [
+                        "角色",
+                        "事件简述",
+                        "日期",
+                        "地点",
+                        "情绪"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4
+                    ],
+                    "enable": true,
+                    "Required": true,
+                    "asStatus": true,
+                    "toChat": true,
+                    "note": "记录<user>或角色经历的重要事件",
+                    "initNode": "本轮必须从上文寻找可以插入的事件并使用insertRow插入",
+                    "insertNode": "当某个角色经历让自己印象深刻的事件时，比如表白、分手等",
+                    "updateNode": "",
+                    "deleteNode": ""
+                },
+                {
+                    "tableName": "重要物品表格",
+                    "tableIndex": 5,
+                    "columns": [
+                        "拥有人",
+                        "物品描述",
+                        "物品名",
+                        "重要原因"
+                    ],
+                    "columnsIndex": [
+                        0,
+                        1,
+                        2,
+                        3
+                    ],
+                    "enable": true,
+                    "Required": false,
+                    "asStatus": true,
+                    "toChat": true,
+                    "note": "对某人很贵重或有特殊纪念意义的物品",
+                    "insertNode": "当某人获得了贵重或有特殊意义的物品时/当某个已有物品有了特殊意义时",
+                    "updateNode": "",
+                    "deleteNode": ""
+                }
+            ]
+        },
+        "table_selected_sheets": [
+            "template_D1V4bXSo",
+            "template_QzMX4c1m",
+            "template_YPzSo9Jm",
+            "template_XmjH2sLy",
+            "template_5UdTuxeN",
+            "template_wuTDwHGp"
+        ],
+        "table_database_templates": [
+            {
+                "uid": "template_D1V4bXSo",
+                "name": "时空表格",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": true,
+                "hashSheet": [
+                    [
+                        "cell_undefined_m8VDVfWtAmWB4SXb",
+                        "cell_undefined_BbVP53gF7VHTXuLz",
+                        "cell_undefined_7o59X2TysWhaJuPL",
+                        "cell_undefined_9mlzN2EBieBiCtib",
+                        "cell_undefined_YaMY0vaIu1c3h0sF"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "uid": "cell_undefined_m8VDVfWtAmWB4SXb",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_vzmS3CTTQ0bB5kR",
+                        "data": {
+                            "note": "记录时空信息的表格，应保持在一行",
+                            "initNode": "本轮需要记录当前时间、地点、人物信息，使用insertRow函数",
+                            "deleteNode": "此表大于一行时应删除多余行",
+                            "updateNode": "当描写的场景，时间，人物变更时"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_BbVP53gF7VHTXuLz",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_ifj21JLK3YnV7WT",
+                        "data": {
+                            "value": "日期"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_7o59X2TysWhaJuPL",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_3nXd5k0JcaoWjUm",
+                        "data": {
+                            "value": "时间"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_9mlzN2EBieBiCtib",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_q1pGJUxpz9qHScC",
+                        "data": {
+                            "value": "地点（当前描写）"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_YaMY0vaIu1c3h0sF",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_GHrOQNqUsCgePaw",
+                        "data": {
+                            "value": "此地角色"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "triggerSendToChat": false,
+                    "alternateTable": false,
+                    "insertTable": false,
+                    "alternateLevel": 0,
+                    "skipTop": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1",
+                            "replaceDivide": ""
+                        }
+                    }
+                }
+            },
+            {
+                "uid": "template_QzMX4c1m",
+                "name": "角色特征表格",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": true,
+                "hashSheet": [
+                    [
+                        "cell_undefined_dpa4zhLCk5tXTnzp",
+                        "cell_undefined_76uf7K6GvoepkC8C",
+                        "cell_undefined_oiwbaGcv8QVDsL2f",
+                        "cell_undefined_O9muycJjvjLnVGQs",
+                        "cell_undefined_OcFKLIylGzAB4J38",
+                        "cell_undefined_FKuBoiIpOtODqrPu",
+                        "cell_undefined_9YCc1cJ9XHWvqXSg",
+                        "cell_undefined_FQsO7HrzfeX82tES",
+                        "cell_undefined_58H5euHkkhDw2gLX"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "uid": "cell_undefined_dpa4zhLCk5tXTnzp",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_1AjiiKqAgJVgDHO",
+                        "data": {
+                            "note": "角色天生或不易改变的特征csv表格，思考本轮有否有其中的角色，他应作出什么反应",
+                            "initNode": "本轮必须从上文寻找已知的所有角色使用insertRow插入，角色名不能为空",
+                            "deleteNode": "",
+                            "updateNode": "当角色的身体出现持久性变化时，例如伤痕/当角色有新的爱好，职业，喜欢的事物时/当角色更换住所时/当角色提到重要信息时",
+                            "insertNode": "当本轮出现表中没有的新角色时，应插入"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_76uf7K6GvoepkC8C",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_tgtHxYWpq5y3QY1",
+                        "data": {
+                            "value": "角色名"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_oiwbaGcv8QVDsL2f",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_iNL1BNkJsUpsEYp",
+                        "data": {
+                            "value": "身体特征"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_O9muycJjvjLnVGQs",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_3FE4c8jTB47tPdi",
+                        "data": {
+                            "value": "性格"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_OcFKLIylGzAB4J38",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_i3hxaQDSjQrA6oI",
+                        "data": {
+                            "value": "职业"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_FKuBoiIpOtODqrPu",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_IlODbThvpgaq5yu",
+                        "data": {
+                            "value": "爱好"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_9YCc1cJ9XHWvqXSg",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_L5wErhbHexTeCMm",
+                        "data": {
+                            "value": "喜欢的事物（作品、虚拟人物、物品等）"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_FQsO7HrzfeX82tES",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_ftO3QYq8wZHh2VH",
+                        "data": {
+                            "value": "住所"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_58H5euHkkhDw2gLX",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_BoP2gQabXpwuRpL",
+                        "data": {
+                            "value": "其他重要信息"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "triggerSendToChat": false,
+                    "alternateTable": false,
+                    "insertTable": false,
+                    "alternateLevel": 0,
+                    "skipTop": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1",
+                            "replaceDivide": ""
+                        }
+                    }
+                }
+            },
+            {
+                "uid": "template_YPzSo9Jm",
+                "name": "角色与<user>社交表格",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": true,
+                "hashSheet": [
+                    [
+                        "cell_undefined_pabZKBtZ5MI6Yttp",
+                        "cell_undefined_tbx3SFe7S4Pp21ZC",
+                        "cell_undefined_hjQBuqFNx1bEP4mE",
+                        "cell_undefined_ZLb05kxqkS5s6r95",
+                        "cell_undefined_6OLMPv8ygLtoqOnk"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "uid": "cell_undefined_pabZKBtZ5MI6Yttp",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_CmnA1z0zkapW9Df",
+                        "data": {
+                            "note": "思考如果有角色和<user>互动，应什么态度",
+                            "initNode": "本轮必须从上文寻找已知的所有角色使用insertRow插入，角色名不能为空",
+                            "deleteNode": "",
+                            "updateNode": "当角色和<user>的交互不再符合原有的记录时/当角色和<user>的关系改变时",
+                            "insertNode": "当本轮出现表中没有的新角色时，应插入"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_tbx3SFe7S4Pp21ZC",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_gRep37wYMVHqf43",
+                        "data": {
+                            "value": "角色名"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_hjQBuqFNx1bEP4mE",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_GlXlhiLcibnakM9",
+                        "data": {
+                            "value": "对<user>关系"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_ZLb05kxqkS5s6r95",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_6j5sgQCIZ1imYlG",
+                        "data": {
+                            "value": "对<user>态度"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_6OLMPv8ygLtoqOnk",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_O2HPt96mpTMZJB5",
+                        "data": {
+                            "value": "对<user>好感"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "triggerSendToChat": false,
+                    "alternateTable": false,
+                    "insertTable": false,
+                    "alternateLevel": 0,
+                    "skipTop": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1",
+                            "replaceDivide": ""
+                        }
+                    }
+                }
+            },
+            {
+                "uid": "template_XmjH2sLy",
+                "name": "任务、命令或者约定表格",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": false,
+                "hashSheet": [
+                    [
+                        "cell_undefined_5nHgzIo1p5uFWSwv",
+                        "cell_undefined_CVcwTvVAFNIaooqH",
+                        "cell_undefined_94xgI8Uy3C3Xag12",
+                        "cell_undefined_0L7HBDjsMi6tOfgQ",
+                        "cell_undefined_00lWEEYOsmmhjdz6"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "uid": "cell_undefined_5nHgzIo1p5uFWSwv",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_TBTHxElXswyGpYS",
+                        "data": {
+                            "note": "思考本轮是否应该执行任务/赴约",
+                            "deleteNode": "当大家赴约时/任务或命令完成时/任务，命令或约定被取消时",
+                            "updateNode": "",
+                            "insertNode": "当特定时间约定一起去做某事时/某角色收到做某事的命令或任务时"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_CVcwTvVAFNIaooqH",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_4byvzDaGp37ztbk",
+                        "data": {
+                            "value": "角色"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_94xgI8Uy3C3Xag12",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_UYbrleua67LGhit",
+                        "data": {
+                            "value": "任务"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_0L7HBDjsMi6tOfgQ",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_nUB7M78VKktYdLe",
+                        "data": {
+                            "value": "地点"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_00lWEEYOsmmhjdz6",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_GUCKupm4eo4osxa",
+                        "data": {
+                            "value": "持续时间"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "triggerSendToChat": false,
+                    "alternateTable": false,
+                    "insertTable": false,
+                    "alternateLevel": 0,
+                    "skipTop": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1",
+                            "replaceDivide": ""
+                        }
+                    }
+                }
+            },
+            {
+                "uid": "template_5UdTuxeN",
+                "name": "重要事件历史表格",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": true,
+                "hashSheet": [
+                    [
+                        "cell_undefined_uzmgWeIyrNUc0Sel",
+                        "cell_undefined_kHbWjepKYv5wb14Z",
+                        "cell_undefined_1fg19kOHxmnOAOcZ",
+                        "cell_undefined_XLNV9f66JpLwKYVq",
+                        "cell_undefined_pHJqqLIEJoTjxsWN",
+                        "cell_undefined_xBG06WyFOMxannDs"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "uid": "cell_undefined_uzmgWeIyrNUc0Sel",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_1f7ricJxSXYrRM4",
+                        "data": {
+                            "note": "记录<user>或角色经历的重要事件",
+                            "initNode": "本轮必须从上文寻找可以插入的事件并使用insertRow插入",
+                            "deleteNode": "",
+                            "updateNode": "",
+                            "insertNode": "当某个角色经历让自己印象深刻的事件时，比如表白、分手等"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_kHbWjepKYv5wb14Z",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_m0jEDLpKi4YTOzH",
+                        "data": {
+                            "value": "角色"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_1fg19kOHxmnOAOcZ",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_P8Y7waD28Q70gui",
+                        "data": {
+                            "value": "事件简述"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_XLNV9f66JpLwKYVq",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_kpfdde13jljOfWx",
+                        "data": {
+                            "value": "日期"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_pHJqqLIEJoTjxsWN",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_9Jcq75kYCccFUii",
+                        "data": {
+                            "value": "地点"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_xBG06WyFOMxannDs",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_sHU0anlxhlbkYFV",
+                        "data": {
+                            "value": "情绪"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "triggerSendToChat": false,
+                    "alternateTable": false,
+                    "insertTable": false,
+                    "alternateLevel": 0,
+                    "skipTop": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1",
+                            "replaceDivide": ""
+                        }
+                    }
+                }
+            },
+            {
+                "uid": "template_wuTDwHGp",
+                "name": "重要物品表格",
+                "domain": "global",
+                "type": "dynamic",
+                "enable": true,
+                "required": false,
+                "hashSheet": [
+                    [
+                        "cell_undefined_8IUeMbZIEvVJTWHo",
+                        "cell_undefined_VccJlJqehQpeIroF",
+                        "cell_undefined_0qSiBwbQKDjGGGXt",
+                        "cell_undefined_Ok7RQKaZ7Tbhqt8o",
+                        "cell_undefined_Izjo1grSRWjDINDG"
+                    ]
+                ],
+                "cellHistory": [
+                    {
+                        "uid": "cell_undefined_8IUeMbZIEvVJTWHo",
+                        "type": "sheet_origin",
+                        "status": "",
+                        "coordUid": "coo_pVZUiAUKEHXqMLW",
+                        "data": {
+                            "note": "对某人很贵重或有特殊纪念意义的物品",
+                            "deleteNode": "",
+                            "updateNode": "",
+                            "insertNode": "当某人获得了贵重或有特殊意义的物品时/当某个已有物品有了特殊意义时"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_VccJlJqehQpeIroF",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_0hmlhU1Iimzlajx",
+                        "data": {
+                            "value": "拥有人"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_0qSiBwbQKDjGGGXt",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_YCFtUaxIoS5B6oi",
+                        "data": {
+                            "value": "物品描述"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_Ok7RQKaZ7Tbhqt8o",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_gTTyz0ZcqO9LbPH",
+                        "data": {
+                            "value": "物品名"
+                        },
+                        "targetUid": ""
+                    },
+                    {
+                        "uid": "cell_undefined_Izjo1grSRWjDINDG",
+                        "type": "column_header",
+                        "status": "",
+                        "coordUid": "coo_bsscb8LH0gguCBU",
+                        "data": {
+                            "value": "重要原因"
+                        },
+                        "targetUid": ""
+                    }
+                ],
+                "config": {
+                    "toChat": true,
+                    "useCustomStyle": false,
+                    "triggerSendToChat": false,
+                    "alternateTable": false,
+                    "insertTable": false,
+                    "alternateLevel": 0,
+                    "skipTop": false,
+                    "selectedCustomStyleKey": "",
+                    "customStyles": {
+                        "自定义样式": {
+                            "mode": "regex",
+                            "basedOn": "html",
+                            "regex": "/(^[\\s\\S]*$)/g",
+                            "replace": "$1",
+                            "replaceDivide": ""
+                        }
+                    }
+                }
+            }
+        ]
     },
     "extension_settings": {
         "apiUrl": "http://localhost:5100",
