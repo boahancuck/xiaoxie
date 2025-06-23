@@ -41,7 +41,7 @@
         "AlertWI_顾汐.png": "true",
         "AlertRegex_顾汐.png": "true"
     },
-    "currentVersion": "1.12.12",
+    "currentVersion": "1.13.0",
     "username": "关一帆",
     "active_character": "顾汐.png",
     "active_group": null,
@@ -155,8 +155,11 @@
             "no_repeat_ngram"
         ],
         "samplers": [
+            "penalties",
             "dry",
+            "top_n_sigma",
             "top_k",
+            "typ_p",
             "tfs_z",
             "typical_p",
             "top_p",
@@ -212,6 +215,7 @@
         "xtc_threshold": 0.1,
         "xtc_probability": 0,
         "nsigma": 0,
+        "min_keep": 0,
         "featherless_model": "",
         "generic_model": "",
         "rep_pen_size": 0
@@ -247,6 +251,7 @@
         "fast_ui_mode": false,
         "avatar_style": 0,
         "chat_display": 0,
+        "toastr_position": "toast-top-center",
         "chat_width": 50,
         "never_resize_avatars": false,
         "show_card_avatar_urls": false,
@@ -364,7 +369,8 @@
             "prefix": "<think>\n",
             "suffix": "\n</think>",
             "separator": "\n\n",
-            "max_additions": 1
+            "max_additions": 1,
+            "name": "DeepSeek"
         },
         "personas": {
             "user-default.png": "关一帆",
@@ -429,6 +435,8 @@
         "forbid_external_media": false,
         "external_media_allowed_overrides": [],
         "external_media_forbidden_overrides": [],
+        "pin_styles": true,
+        "click_to_edit": false,
         "ui_mode": 1,
         "auto_sort_tags": false,
         "selectSamplers": {
@@ -2738,6 +2746,7 @@
         "openai_model": "gpt-4-turbo",
         "claude_model": "claude-3-5-sonnet-20240620",
         "google_model": "gemini-2.0-flash",
+        "vertexai_model": "gemini-2.0-flash-001",
         "ai21_model": "jamba-1.5-large",
         "mistralai_model": "mistral-large-latest",
         "cohere_model": "command-r-plus",
@@ -2745,8 +2754,9 @@
         "groq_model": "llama-3.1-70b-versatile",
         "nanogpt_model": "gpt-4o-mini",
         "zerooneai_model": "yi-large",
-        "blockentropy_model": "be-70b-base-llama3.1",
         "deepseek_model": "deepseek-reasoner",
+        "xai_model": "grok-3-beta",
+        "pollinations_model": "openai",
         "custom_model": "gemini-2.5-pro-exp-03-25",
         "custom_url": "https://vklxplmuyrby.us-east-1.clawcloudrun.com/v1",
         "custom_include_body": "",
@@ -2760,7 +2770,6 @@
         "openrouter_providers": [],
         "openrouter_allow_fallbacks": true,
         "openrouter_middleout": "on",
-        "jailbreak_system": false,
         "reverse_proxy": "",
         "chat_completion_source": "custom",
         "max_context_unlocked": true,
@@ -2783,8 +2792,11 @@
         "custom_prompt_post_processing": "strict",
         "show_thoughts": false,
         "reasoning_effort": "medium",
+        "enable_web_search": false,
+        "request_images": false,
         "seed": -1,
-        "n": 1
+        "n": 1,
+        "bind_preset_to_connection": true
     },
     "background": {
         "name": "__transparent.png",
