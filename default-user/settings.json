@@ -39,11 +39,13 @@
         "AlertRegex_琼明神女录.png": "true",
         "AlertWI_姐姐.png": "true",
         "AlertWI_顾汐.png": "true",
-        "AlertRegex_顾汐.png": "true"
+        "AlertRegex_顾汐.png": "true",
+        "AlertWI_丹心宜凝.png": "true",
+        "AlertRegex_丹心宜凝.png": "true"
     },
     "currentVersion": "1.13.0",
     "username": "关一帆",
-    "active_character": "顾汐.png",
+    "active_character": "丹心宜凝.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1632,8 +1634,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 12,
-                "LAST_RECEIVE_CHARS": 15,
+                "LAST_RECEIVE_TOKENS": 745,
+                "LAST_RECEIVE_CHARS": 1121,
                 "LAST_SEND_TOKENS": 2,
                 "LAST_SEND_CHARS": 2
             }
