@@ -2532,7 +2532,7 @@
                 "marker": false,
                 "name": "🎉字数控制",
                 "role": "system",
-                "content": "<number_of_words>\n正文字数必须符合此标准：不少于700字\n</number_of_words>\n",
+                "content": "<number_of_words>\n正文字数必须符合此标准：不少于1500字\n</number_of_words>\n",
                 "injection_position": 1,
                 "injection_depth": 1,
                 "forbid_overrides": false,
