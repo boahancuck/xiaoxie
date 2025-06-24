@@ -41,11 +41,13 @@
         "AlertWI_顾汐.png": "true",
         "AlertRegex_顾汐.png": "true",
         "AlertWI_丹心宜凝.png": "true",
-        "AlertRegex_丹心宜凝.png": "true"
+        "AlertRegex_丹心宜凝.png": "true",
+        "AlertWI_《Lost Good Things - After Story》.png": "true",
+        "AlertRegex_《Lost Good Things - After Story》.png": "true"
     },
     "currentVersion": "1.13.0",
     "username": "关一帆",
-    "active_character": "丹心宜凝.png",
+    "active_character": "《Lost Good Things - After Story》.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1480,7 +1482,8 @@
             "星月.png",
             "琼明神女录.png",
             "顾汐.png",
-            "丹心宜凝.png"
+            "丹心宜凝.png",
+            "《Lost Good Things - After Story》.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1668,8 +1671,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 3020,
-                "LAST_RECEIVE_CHARS": 4216,
+                "LAST_RECEIVE_TOKENS": 140,
+                "LAST_RECEIVE_CHARS": 367,
                 "LAST_SEND_TOKENS": 32901,
                 "LAST_SEND_CHARS": 77641
             }
@@ -1926,7 +1929,9 @@
             "script": {
                 "global_script_enabled": true,
                 "scriptsRepository": [],
-                "characters_with_scripts": []
+                "characters_with_scripts": [
+                    "《Lost Good Things - After Story》.png"
+                ]
             },
             "audio": {
                 "audio_enabled": true,
