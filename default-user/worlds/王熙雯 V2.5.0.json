@@ -12,7 +12,7 @@
             "addMemo": true,
             "order": 100,
             "position": 1,
-            "disable": false,
+            "disable": true,
             "excludeRecursion": false,
             "preventRecursion": false,
             "matchPersonaDescription": false,
