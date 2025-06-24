@@ -45,11 +45,13 @@
         "AlertWI_《Lost Good Things - After Story》.png": "true",
         "AlertRegex_《Lost Good Things - After Story》.png": "true",
         "AlertWI_《Lost Good Things》1.png": "true",
-        "AlertRegex_《Lost Good Things》1.png": "true"
+        "AlertRegex_《Lost Good Things》1.png": "true",
+        "AlertWI_《Lost Good Things》2.png": "true",
+        "AlertRegex_《Lost Good Things》2.png": "true"
     },
     "currentVersion": "1.13.0",
     "username": "关一帆",
-    "active_character": "《Lost Good Things》.png",
+    "active_character": "《Lost Good Things》2.png",
     "active_group": null,
     "api_server": "http://127.0.0.1:5000/api",
     "preset_settings": "RecoveredRuins",
@@ -1486,7 +1488,8 @@
             "顾汐.png",
             "丹心宜凝.png",
             "《Lost Good Things - After Story》.png",
-            "《Lost Good Things》1.png"
+            "《Lost Good Things》1.png",
+            "《Lost Good Things》2.png"
         ],
         "tts": {
             "voiceMap": "",
@@ -1674,8 +1677,8 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 4298,
-                "LAST_RECEIVE_CHARS": 8332,
+                "LAST_RECEIVE_TOKENS": 2692,
+                "LAST_RECEIVE_CHARS": 5510,
                 "LAST_SEND_TOKENS": 18279,
                 "LAST_SEND_CHARS": 33706
             }
@@ -2112,7 +2115,9 @@
         "《Lost Good Things - After Story》.png": [],
         "丹心宜凝.png": [],
         "瑶光仙宗：寂寞的师姐，闭关的他，撅墙的我？.png": [],
-        "《Lost Good Things》1.png": []
+        "《Lost Good Things》1.png": [],
+        "《Lost Good Things》.png": [],
+        "《Lost Good Things》2.png": []
     },
     "nai_settings": {
         "temperature": 1.5,
