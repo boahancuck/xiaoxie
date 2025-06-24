@@ -1463,25 +1463,6 @@
                 "substituteRegex": 0,
                 "minDepth": 5,
                 "maxDepth": null
-            },
-            {
-                "id": "a8ff1bc7-15f2-4122-b43b-ded692560538",
-                "scriptName": "Prompt Template Filter",
-                "findRegex": "/<%(?![%])([\\s\\S]*?)(?<!%)%>/g",
-                "replaceString": "",
-                "trimStrings": [],
-                "placement": [
-                    1,
-                    2,
-                    6
-                ],
-                "disabled": false,
-                "markdownOnly": false,
-                "promptOnly": true,
-                "runOnEdit": false,
-                "substituteRegex": 0,
-                "minDepth": null,
-                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
@@ -1696,10 +1677,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 68,
-                "LAST_RECEIVE_CHARS": 89,
-                "LAST_SEND_TOKENS": 23022,
-                "LAST_SEND_CHARS": 40485
+                "LAST_RECEIVE_TOKENS": 4523,
+                "LAST_RECEIVE_CHARS": 8163,
+                "LAST_SEND_TOKENS": 23435,
+                "LAST_SEND_CHARS": 41197
             }
         },
         "attachments": [],
