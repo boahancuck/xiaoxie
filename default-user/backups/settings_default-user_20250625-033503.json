@@ -380,8 +380,8 @@
             "add_to_prompts": false,
             "auto_expand": false,
             "show_hidden": false,
-            "prefix": "<think>\n",
-            "suffix": "\n</think>",
+            "prefix": "<thinking>\n",
+            "suffix": "\n</thinking>",
             "separator": "\n\n",
             "max_additions": 1,
             "name": "DeepSeek"
@@ -1463,6 +1463,25 @@
                 "substituteRegex": 0,
                 "minDepth": 5,
                 "maxDepth": null
+            },
+            {
+                "id": "a8ff1bc7-15f2-4122-b43b-ded692560538",
+                "scriptName": "Prompt Template Filter",
+                "findRegex": "/<%(?![%])([\\s\\S]*?)(?<!%)%>/g",
+                "replaceString": "",
+                "trimStrings": [],
+                "placement": [
+                    1,
+                    2,
+                    6
+                ],
+                "disabled": false,
+                "markdownOnly": false,
+                "promptOnly": true,
+                "runOnEdit": false,
+                "substituteRegex": 0,
+                "minDepth": null,
+                "maxDepth": null
             }
         ],
         "character_allowed_regex": [
@@ -1677,10 +1696,10 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 2,
-                "LAST_RECEIVE_CHARS": 3,
-                "LAST_SEND_TOKENS": 18358,
-                "LAST_SEND_CHARS": 33805
+                "LAST_RECEIVE_TOKENS": 2042,
+                "LAST_RECEIVE_CHARS": 2897,
+                "LAST_SEND_TOKENS": 22533,
+                "LAST_SEND_CHARS": 39780
             }
         },
         "attachments": [],
@@ -3853,7 +3872,7 @@
                     },
                     {
                         "identifier": "71d96fb0-35e6-47ca-aedc-8836333cd3c2",
-                        "enabled": false
+                        "enabled": true
                     },
                     {
                         "identifier": "e03a5f01-0115-4840-9141-31fbc2e81151",
