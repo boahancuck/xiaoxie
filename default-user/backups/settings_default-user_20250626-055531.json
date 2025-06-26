@@ -1677,15 +1677,16 @@
         "vectors": {},
         "variables": {
             "global": {
-                "LAST_RECEIVE_TOKENS": 5225,
-                "LAST_RECEIVE_CHARS": 9878,
-                "LAST_SEND_TOKENS": 22539,
-                "LAST_SEND_CHARS": 39631
+                "LAST_RECEIVE_TOKENS": 2414,
+                "LAST_RECEIVE_CHARS": 3409,
+                "LAST_SEND_TOKENS": 23184,
+                "LAST_SEND_CHARS": 40650
             }
         },
         "attachments": [],
         "character_attachments": {
-            "霜影剑歌行.png": []
+            "霜影剑歌行.png": [],
+            "《Lost Good Things》2.png": []
         },
         "disabled_attachments": [],
         "gallery": {
